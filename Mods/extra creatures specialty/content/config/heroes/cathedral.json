@@ -1,0 +1,347 @@
+{
+
+	"cathedral:erika": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 16,
+					"limiters": [
+						{
+							"parameters": ["cthTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cthTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "圣武士",
+                "description": "每6级提高圣武士及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
+            }
+        }
+	},
+	"cathedral:tarinus": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthSexton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthSexton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 12,
+					"limiters": [
+						{
+							"parameters": ["cthSexton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cthSexton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "执事",
+                "description": "每5级提高执事及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
+            }
+        }
+	},
+	"cathedral:nariko": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 8,
+					"limiters": [
+						{
+							"parameters": ["cthCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cthCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "飞蛇",
+                "description": "每4级提高飞蛇及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
+            }
+        }
+	},
+	"cathedral:patricia": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthWitchHunter", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthWitchHunter", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 4,
+					"limiters": [
+						{
+							"parameters": ["cthWitchHunter", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cthWitchHunter", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "猎巫人",
+                "description": "每3级提高猎巫人及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
+            }
+        }
+	},
+	"cathedral:kasumi": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthSlayer", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cthSlayer", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 2,
+					"limiters": [
+						{
+							"parameters": ["cthSlayer", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cthSlayer", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "屠杀者",
+                "description": "每2级提高屠杀者及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
+            }
+        }
+	}
+}

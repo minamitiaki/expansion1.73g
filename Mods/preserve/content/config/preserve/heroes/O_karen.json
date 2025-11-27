@@ -1,0 +1,75 @@
+{
+	"o_karen" :
+	{
+    "class": "bard",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "凯伦",
+			"biography" : "凯伦曾经和邻国的王子偶遇，王子看重了她并许诺她成为王妃。可是当王子的卫兵找到她的时候她才知道王子因为思念过度已经去世，而他的遗愿竟是让凯伦殉葬。当她被锁在存放王子灵柩的屋子里并且将要被火烧死时，她用魔法逃出了那个密闭的房间。经过这件事后，这个女孩像变了个人一般。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "Bonus: resource",
+				"name" : "+350个金币"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "preserve/heroes/karen/UN32T194.bmp",
+			"specialtyLarge" : "preserve/heroes/karen/UN44T194.bmp",
+			"large" : "preserve/heroes/karen/HPL006BR.bmp",
+			"small" : "preserve/heroes/karen/HPS006BR.bmp"
+		},
+		
+		
+		"spellbook" :
+		[
+			"teleport"
+		],
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halflings",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "treelurker",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "magiceye",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,552 @@
+{
+	"core:gretchin":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["goblin", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["goblin", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["goblin", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "大耳怪",
+                "description": "每1级提高大耳怪及其升级形态10%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:tyraxor":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["goblinWolfRider", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["goblinWolfRider", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["goblinWolfRider", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "恶狼骑士",
+                "description": "每2级提高恶狼骑士及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:jabarkas":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["orc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["orc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["orc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "半兽人",
+                "description": "每3级提高半兽人及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:boragus":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "食人魔",
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:krellion":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "食人魔",
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:vey":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "食人魔",
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:shiva":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["roc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["roc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["roc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "大雕",
+                "description": "每5级提高大雕及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:yog":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cyclop", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["cyclop", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["cyclop", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "独眼巨人",
+                "description": "每6级提高独眼巨人及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:kilgor":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "behemoth", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"damage" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 10
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 10
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 10
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "比蒙巨兽",
+                "description": "使比蒙巨兽及其升级形态攻击力+10，防御力+10，杀伤+10"
+            }
+        }
+	},
+	"core:gurnisson": {
+		"specialty": {
+			"creature": null,
+			"bonuses" : {
+				"attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [120],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ballista", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [120],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["ballista", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+                    "valueType": "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["ballista", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "弩车",
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤2点。"
+            }
+        }
+	}
+}

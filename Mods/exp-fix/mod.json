@@ -1,0 +1,19 @@
+{
+	"name" : "exp-fix",
+	"description" : "exp-fix for exp1.73",
+	"author" : "chenmual",
+	"version" : "0.01",
+	"contact" : "",
+	"modType" : "Mechanics",
+	"conflicts" : [],
+	"depends": ["asylum","bastille","cathedral","Courtyard","Deathvalley","Fairy","haven","hota.cove","hota.Factory","New Pavilion.New Pavillion","preserve","tidesOfWar","tartarus","hota.heroes","hota.cannon","newoldspells+","extra creatures specialty"],
+	"chinese":{
+	    "name" : "exp-fix",
+		"description" : "修复部分EXP功能(仅限EXP1.73)<br />fix !哲尔的特长.<br />fix !阿德拉的特长."
+	},
+	"heroes":
+	[
+		"config/exp-fix/heroes/dizheel",
+		"config/exp-fix/heroes/adela"
+	]
+}

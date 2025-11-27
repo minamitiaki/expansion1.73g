@@ -1,0 +1,497 @@
+{
+	"hota.cove:03illor": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["stormbird", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["stormbird", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 8,
+					"limiters": [
+						{
+							"parameters": ["stormbird", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},		
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["stormbird", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "暴风鸟",
+                "description": "每4级提高暴风鸟及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
+            }
+        }
+	},
+	"hota.cove:06anabel": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["pirate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["pirate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["pirate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 4,
+					"limiters": [
+						{
+							"parameters": ["pirate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},		
+				"attack1": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["seadog", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence1": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["seadog", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed1": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["seadog", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "海贼",
+                "description": "每3级提高海贼及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
+            }
+        }
+	},
+	"hota.cove:07cassiopeia": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["nymph", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["nymph", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 1,
+					"limiters": [
+						{
+							"parameters": ["nymph", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},		
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["nymph", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "泉水精灵",
+                "description": "每1级提高泉水精灵及其升级形态10%的攻击力和防御力。速度+1。伤害+1。"
+            }
+        }
+	},
+	"hota.cove:09casmetra": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["seaWitch", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["seaWitch", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 16,
+					"limiters": [
+						{
+							"parameters": ["seaWitch", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},			
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["seaWitch", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "海洋女巫",
+                "description": "每5级提高海洋女巫及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
+            }
+        }
+	},
+	"hota.cove:derek": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["crewmate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["crewmate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 2,
+					"limiters": [
+						{
+							"parameters": ["crewmate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},		
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["crewmate", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "水手",
+                "description": "每2级提高水手及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
+            }
+        }
+	},
+	"hota.cove:tark": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [66],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["nix", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [66],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["nix", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 24,
+					"limiters": [
+						{
+							"parameters": ["nix", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},		
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["nix", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "鱼人",
+                "description": "每6级提高鱼人及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
+            }
+        }
+	},
+	"hota.cove:02jeremy": {
+		"specialty" : {
+			"base" : {
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+			},
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"limiters" : { "parameters" : [ "cannon", false ] },
+					"targetSourceType" : "CREATURE_ABILITY",
+					"valueType":"PERCENT_TO_TARGET_TYPE",
+					"updater": {
+                    "parameters": [70],
+                    "type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"limiters" : { "parameters" : [ "cannon", false ] },
+					"targetSourceType" : "CREATURE_ABILITY",
+					"valueType":"PERCENT_TO_TARGET_TYPE",
+					"updater": {
+                    "parameters": [70],
+                    "type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 24,
+					"limiters" : { "parameters" : [ "cannon", false ] }
+				}		
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "加农炮",
+                "description": "每6级提高加农炮30%的攻击力和防御力。伤害+24。"
+            }
+        }
+	}
+}

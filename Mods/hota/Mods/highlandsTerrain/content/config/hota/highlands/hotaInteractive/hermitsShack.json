@@ -1,0 +1,62 @@
+{
+	"hermitsShack" : {
+		"handler":"configurable",
+		"name" : "隐士小屋",
+		"types" : {
+			"hermitsShack" :
+			{
+				"name": "隐士小屋",
+				"rmg" : {
+					"value"	: 1500,
+					"rarity" : 80,
+					"zoneLimit" : 1,
+					"mapLimit" : 32
+				},
+				"sounds" : {
+					"visit" : ["GAZEBO"]
+				},
+				"rewards" : 
+				[
+					{
+						"message" : "{隐士小屋}\r\n\r\n隐士见到你的到来，他希望你分享给他一些见闻，你答应了，他也给你说了一些以前冒险的经验，这会使你受益匪浅。",
+						"appearChance" : { "max" : 20 },
+						"heroLevel" : 1
+					},
+					{
+						"message" : "{隐士小屋}\r\n\r\n隐士见到你的到来，他希望你分享给他一些见闻，你答应了，他也给你说了一些以前冒险的经验，这会使你受益匪浅。",
+						"appearChance" : { "min" : 20, "max" : 40 },
+						"primary" : { "attack" : 1 }
+					},
+					{
+						"message" : "{隐士小屋}\r\n\r\n隐士见到你的到来，他希望你分享给他一些见闻，你答应了，他也给你说了一些以前冒险的经验，这会使你受益匪浅。",
+						"appearChance" : { "min" : 40, "max" : 60 },
+						"primary" : { "spellpower" : 1 }
+					},
+					{
+					
+						"message" : "{隐士小屋}\r\n\r\n隐士见到你的到来，他希望你分享给他一些见闻，你答应了，他也给你说了一些以前冒险的经验，这会使你受益匪浅。",
+						"appearChance" : { "min" : 60, "max" : 80 },
+						"primary" : { "defence" : 1 }
+					},
+					{
+					
+						"message" : "{隐士小屋}\r\n\r\n隐士见到你的到来，他希望你分享给他一些见闻，你答应了，他也给你说了一些以前冒险的经验，这会使你受益匪浅。",
+						"appearChance" : { "min" : 80 },
+						"primary" : { "knowledge" : 1 }
+					}
+				],
+				"onVisitedMessage" : "{隐士小屋}\r\n\r\n隐士见到你的到来，忙问你是不是有什么见闻可以分享给他，你知道他已经没有可以传授给你的知识，于是转身离开。",
+				"selectMode" : "selectFirst",
+				"visitMode" : "hero",
+				"templates" : {
+					"AVShrmit" : {
+						"animation" : "hota/highlands/hotaInteractive/hermitsShack/AVShrmit",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "highlands"]
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,0 +1,36 @@
+{
+	"name" : "Less random start",
+	"description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.", 
+	"modType" : "Mechanics",
+	"author": "avatar",
+	"contact": "https://forum.vcmi.eu/",
+	"version" : "1.0",
+	"compatibility" :
+	{
+		"min" : "1.2"
+	},
+	"settings":
+	{
+		"heroes":
+		{
+			"startingStackChances": [ 100, 100, 100 ]
+		},
+		"towns":
+		{
+			"startingDwellingChances": [ 100, 100 ] ,
+			"spellResearch": true,
+			// Cost for an spell research (array index is spell tier)
+			"spellResearchCost": [
+				{ "gold": 1000, "wood" : 0, "mercury": 2, "ore": 0, "sulfur": 2, "crystal": 2, "gems": 2 },
+				{ "gold": 1000, "wood" : 0, "mercury": 4, "ore": 0, "sulfur": 4, "crystal": 4, "gems": 4 },
+				{ "gold": 1000, "wood" : 0, "mercury": 6, "ore": 0, "sulfur": 6, "crystal": 6, "gems": 6 },
+				{ "gold": 1000, "wood" : 0, "mercury": 8, "ore": 0, "sulfur": 8, "crystal": 8, "gems": 8 },
+				{ "gold": 1000, "wood" : 0, "mercury": 10, "ore": 0, "sulfur": 10, "crystal": 10, "gems": 10 }
+			],
+			// How much researchs/skips per day are possible? (array index is spell tier)
+			"spellResearchPerDay": [ 1, 1, 1, 1, 1 ],
+			// Exponent for increasing cost for each research (factor 1 disables this; array index is spell tier)
+			"spellResearchCostExponentPerResearch": [ 1, 1, 1, 1, 1 ]
+		}
+	}
+}

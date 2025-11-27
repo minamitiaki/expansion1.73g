@@ -1,0 +1,19 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtLustChambers" : {
+				"name" : "欲望之间",
+				"creatures" : [[ "mdtSukkub" ]],
+				"sounds": {
+					"ambient": ["dwellings/inferno/SuccLOOP"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/inferno/mapLustChambers.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}
+	}	
+}

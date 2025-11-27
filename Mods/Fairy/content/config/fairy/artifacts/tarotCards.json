@@ -1,0 +1,333 @@
+{
+	"tarotCards01" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC01.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{愚者}\r\n\r\n愚者是塔罗牌的第一张牌。",
+			"event" : "no description",
+			"name" : "{#0} 愚者"
+		}
+	},
+	"tarotCards02" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC02.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{魔法师}\r\n\r\n魔法师是塔罗牌的第二张牌。",
+			"event" : "no description",
+			"name" : "{#1} 魔法师"
+		}
+	},
+	"tarotCards03" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC03.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{女祭司}\r\n\r\n女祭司是塔罗牌的第三张牌。",
+			"event" : "no description",
+			"name" : "{#2} 女祭司"
+		}
+	},
+	"tarotCards04" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC04.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{女皇}\r\n\r\n女皇是塔罗牌的第四张牌。",
+			"event" : "no description",
+			"name" : "{#3} 女皇"
+		}
+	},
+	"tarotCards05" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC05.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{皇帝}\r\n\r\n皇帝是塔罗牌的第五张牌。",
+			"event" : "no description",
+			"name" : "{#4} 皇帝"
+		}
+	},
+	"tarotCards06" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC06.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{教皇}\r\n\r\n教皇是塔罗牌的第六张牌。",
+			"event" : "no description",
+			"name" : "{#5} 教皇"
+		}
+	},
+	"tarotCards07" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC07.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{恋人}\r\n\r\n恋人是塔罗牌的第七张牌。",
+			"event" : "no description",
+			"name" : "{#6} 恋人"
+		}
+	},
+	"tarotCards08" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC08.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{战车}\r\n\r\n战车是塔罗牌的第八张牌。",
+			"event" : "no description",
+			"name" : "{#7} 战车"
+		}
+	},
+	"tarotCards09" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC09.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{力量}\r\n\r\n力量是塔罗牌的第九张牌。",
+			"event" : "no description",
+			"name" : "{#8} 力量"
+		}
+	},
+	"tarotCards10" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC10.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{隐士}\r\n\r\n隐士是塔罗牌的第十张牌。",
+			"event" : "no description",
+			"name" : "{#9} 隐士"
+		}
+	},
+	"tarotCards11" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC11.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{命运之轮}\r\n\r\n命运之轮是塔罗牌的第十一张牌。",
+			"event" : "no description",
+			"name" : "{#10} 命运之轮"
+		}
+	},
+	"tarotCards12" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC12.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{正义}\r\n\r\n正义是塔罗牌的第十二张牌。",
+			"event" : "no description",
+			"name" : "{#11} 正义"
+		}
+	},
+	"tarotCards13" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC13.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{倒吊的人}\r\n\r\n倒吊的人是塔罗牌的第十三张牌。",
+			"event" : "no description",
+			"name" : "{#12} 倒吊的人"
+		}
+	},
+	"tarotCards14" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC14.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{死神}\r\n\r\n死神是塔罗牌的第十四张牌。",
+			"event" : "no description",
+			"name" : "{#13} 死神"
+		}
+	},
+	"tarotCards15" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC15.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{节制}\r\n\r\n节制是塔罗牌的第十五张牌。",
+			"event" : "no description",
+			"name" : "{#14} 节制"
+		}
+	},
+	"tarotCards16" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC16.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{恶魔}\r\n\r\n恶魔是塔罗牌的第十六张牌。",
+			"event" : "no description",
+			"name" : "{#15} 恶魔"
+		}
+	},
+	"tarotCards17" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC17.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{高塔}\r\n\r\n高塔是塔罗牌的第十七张牌。",
+			"event" : "no description",
+			"name" : "{#16} 高塔"
+		}
+	},
+	"tarotCards18" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC18.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{星星}\r\n\r\n星星是塔罗牌的第十八张牌。",
+			"event" : "no description",
+			"name" : "{#17} 星星"
+		}
+	},
+	"tarotCards19" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC19.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{月亮}\r\n\r\n月亮是塔罗牌的第十九张牌。",
+			"event" : "no description",
+			"name" : "{#18} 月亮"
+		}
+	},
+	"tarotCards20" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC20.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{太阳}\r\n\r\n太阳是塔罗牌的第二十张牌。",
+			"event" : "no description",
+			"name" : "{#19} 太阳"
+		}
+	},
+	"tarotCards21" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC21.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{审判}\r\n\r\n审判是塔罗牌的第二十一张牌。",
+			"event" : "no description",
+			"name" : "{#20} 审判"
+		}
+	},
+	"tarotCards22" : {
+		"type" : [ "CREATURE" ],
+		"class" : "SPECIAL",
+		"slot":	"MISC",
+		"value" : 500,
+		"graphics" : {
+			"image": "fairy/map/artifacts/tarotC22.bmp",
+			"map": "fairy/map/artifacts/tarotMap.def"
+		},
+		"text" : {
+			"description" : "{世界}\r\n\r\n世界是塔罗牌的第二十二张牌。",
+			"event" : "no description",
+			"name" : "{#21} 世界"
+		}
+	}
+	
+}

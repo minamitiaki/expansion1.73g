@@ -1,0 +1,287 @@
+{
+	"core:ufretin":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["dwarf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [200],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["dwarf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["dwarf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "矮人",
+                "description": "每2级提高矮人及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:ivor":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["woodElf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["woodElf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["woodElf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "木精灵",
+                "description": "每3级提高木精灵及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:aeris":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["pegasus", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["pegasus", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["pegasus", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "飞马",
+                "description": "每4级提高飞马及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:ryland":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["dendroidGuard", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["dendroidGuard", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["dendroidGuard", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "枯木卫士",
+                "description": "每5级提高枯木卫士及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"core:clancy":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["unicorn", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["unicorn", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["unicorn", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "独角兽",
+                "description": "每6级提高枯木卫及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	}
+}

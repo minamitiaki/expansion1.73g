@@ -1,0 +1,28 @@
+{
+	"core:sphereOfPermanence":
+	{
+		"bonuses" : [
+			{
+				"subtype" : "dispel",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
+			},
+			{
+				"subtype" : "dispelHelpful",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
+			},
+			{
+				"subtype" : "mdtCancel",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1
+			},
+		],
+	}
+}

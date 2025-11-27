@@ -1,0 +1,692 @@
+{
+	"tidesofwar:mdtCharles":{
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "圣堂武士",
+                "description": "每7级提高圣堂武士及其升级形态20%的攻击力和防御力并拥有正士气。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtEurydis": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtDryad", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtDryad", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtDryad", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "林妖",
+                "description": "每4级提高林妖及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtVerstan": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtDrakeGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtDrakeGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtDrakeGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "傀儡龙",
+                "description": "每7级提高傀儡龙及其升级形态20%的攻击力和防御力。速度+1。魔法抵抗力+10%。"
+            }
+        }
+	},
+	"tidesofwar:eyzeaDemoniac": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtSukkub", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtSukkub", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtSukkub", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "魅魔",
+                "description": "每4级提高魅魔及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:yaverrDeathknight": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtWerewolf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtWerewolf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtWerewolf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "狼人",
+                "description": "每4级提高狼人及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtCollivea": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["medusa", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [100],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["medusa", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["medusa", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "美杜莎",
+                "description": "每4级提高美杜莎及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtGaluum": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtIllithid", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtIllithid", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtIllithid", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "摄魂怪",
+                "description": "每5级提高摄魂怪及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtErgon": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "风蛇",
+                "description": "每6级提高风蛇及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtThyroc": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["hydra", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [57],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["hydra", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["hydra", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+		"texts": {
+            "specialty": {
+                "name": "九头怪",
+                "description": "每7级提高九头怪及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtShroo": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTrollHag", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [80],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTrollHag", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtTrollHag", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+
+        "texts": {
+            "specialty": {
+                "name": "洞穴巫女",
+                "description": "每5级提高洞穴巫女及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"tidesofwar:mdtIrrigus": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTriton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [133],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["mdtTriton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["mdtTriton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+        "texts": {
+            "specialty": {
+                "name": "海卫兵",
+                "description": "每3级提高海卫兵及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	},
+	"hota.heroes:specialKydoimos": {
+		"specialty": {
+			"creature": null,
+			"bonuses": {
+                "attack": {
+					"subtype": "primarySkill.attack",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+                "defence": {
+					"subtype": "primarySkill.defence",
+					"type": "PRIMARY_SKILL",
+					"val": 0,
+                    "targetSourceType" : "CREATURE_ABILITY",
+                    "valueType": "PERCENT_TO_TARGET_TYPE",
+                    "updater": {
+                        "parameters": [70],
+                        "type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}
+            }
+		},
+		
+        "texts": {
+            "specialty": {
+                "name": "火精灵",
+                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。"
+            }
+        }
+	}
+}

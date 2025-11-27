@@ -1,0 +1,62 @@
+{
+  "mdtErgon" :
+  {
+    "class" : "barbarian",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "埃尔贡",
+      "biography" : "在克鲁洛德登基后，科尔格任命了埃尔贡去平定仍然忠于云斯顿·伯拉格的食人魔，即使在他死后也是如此。不用多说，这个参加过继承权战争的老兵率领着异国情调的野兽蹂躏了不臣服的部落，非常高效地完成了他的工作。",
+      "specialty" :
+      {
+        "description" : "达到6级以后提高风蛇或风蛇王的攻击力与防御力。",
+        "tooltip" : "Creature bonus: Couatl",
+        "name" : "风蛇"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "heroes/stronghold/ergon_spec-small.bmp",
+      "specialtyLarge" : "heroes/stronghold/ergon_spec-large.bmp",
+      "large" : "heroes/stronghold/ergon_portrait-large.bmp",
+      "small" : "heroes/stronghold/ergon_portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "goblin",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "goblinWolfRider",
+        "max" : 7,
+        "min" : 5
+      },
+      {
+        "creature" : "orc",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "offence"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "intimidation"
+      }
+    ],
+    "specialty" : {
+			"creature" : "mdtCouatl"
+	}
+  }
+}

@@ -1,0 +1,52 @@
+{
+	"a_dvSylvanus" :
+	{
+		"class" : "dvDeathlord",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/sylvanus/Un32Bansh.png",
+			"specialtyLarge" : "deathvalley/heroes/sylvanus/Un44Bansh.png",
+			"large" : "deathvalley/heroes/sylvanus/SylvanusL.png",
+			"small" : "deathvalley/heroes/sylvanus/SylvanusS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "banshee",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "dv_necromancy"
+			}
+		],
+		"specialty" : {
+			"creature" : "banshee"
+		},		
+		"texts" : {
+			"biography" : "希尔瓦努斯是女妖族的王。她本身就是一名凶猛的战士，以娴熟的技巧和风度带领着忠诚的军队，以精确的战术指挥她们，这令她的许多对手羡慕不已。",
+			"name" : "希尔瓦努斯",
+			"specialty" : {
+				"description" : "达到5级以后提高暗女巫或夜女巫的攻击力与防御力。",
+				"tooltip" : "Increases the Attack and Defence of any Banshees and Ethereal Banshees for each level attained after 3rd level.",
+				"name" : "暗女巫"
+			}
+		}
+	}
+}
+

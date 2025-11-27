@@ -1,0 +1,123 @@
+{
+	"nwCon02":
+	{
+		"name" :
+		{
+			"plural" : "闪电元素",
+			"singular" : "闪电元素"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"faction": "conflux",
+		"description" : "{技能说明}： \n{霹雳闪电}： 可以施放霹雳闪电 5 次，伤害为 6*数量。",
+		"aiValue" : 487,
+		"fightValue" : 325,
+		"attack" : 10,
+		"defense" : 8,
+		"cost" :
+		{
+			"gold" : 275
+		},
+		"damage" :
+		{
+			"min" : 2,
+			"max" : 8
+		},
+		"speed" : 8,
+		"upgrades": ["stormElemental"],
+		"graphics" :
+		{
+			"animation" : "creatures/conflux/battle/CON02.def",
+			"map" : "creatures/conflux/map/CON02S.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/CON02S.bmp",
+			"iconLarge" : "creatures/conflux/iconsBig/CON02L.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 25,
+		"growth" : 6,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "STORATTK.wav",
+			"defend": "STORDFND.wav",
+			"killed": "STORKILL.wav",
+			"move": "STORMOVE.wav",
+			"shoot": "STORSHOT.wav",
+			"wince": "STORWNCE.wav"
+		},
+		"abilities" :
+		{
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"spellPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 2
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"meteorShowerImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			},
+			"oppositeEarth" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.earthElemental",
+				"val" : 100
+			},
+			"oppositeMagma" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.magmaElemental",
+				"val" : 100
+			},
+			"oppositeLava" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon05",
+				"val" : 100
+			}
+		}
+	}
+}
+
+

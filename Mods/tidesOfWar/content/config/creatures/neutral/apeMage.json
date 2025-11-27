@@ -1,0 +1,143 @@
+{
+	"napeMage" : 
+	{
+		"name" :
+		{
+			"singular" : "猩法师",
+			"plural" : "猩法师"
+		},
+		"level" : 4,
+		"special" : false,
+		"faction" : "neutral", 
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 450
+		},
+		"fightValue" : 550,
+		"aiValue" : 510,
+		"growth" : 4,
+		
+		"attack" : 10,
+		"defense" : 8,
+		"hitPoints" : 30,
+		"shots" : 8,
+		"speed" : 4,
+		"damage" :
+		{
+			"min" : 5,
+			"max" : 8
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 7,
+			"max" : 11
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"landKnowledge":{
+				"type" : "ROUGH_TERRAIN_DISCOUNT",
+				"valueType" : "PERCENT_TO_ALL",
+				"val" : 25
+			},
+			"strongMind" :
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "creatures/neutral/battle/apeMage.def",
+			"map" :       "creatures/neutral/map/apeMage.def",
+			"iconSmall" : "creatures/neutral/iconsSmall/apeMage.bmp",
+			"iconLarge" : "creatures/neutral/iconsBig/apeMage.bmp",
+			"timeBetweenFidgets" : 2.00,
+			"animationTime": {
+				"walk": 1.20,
+				"attack": 1,
+				"idle": 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound": {
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"shoot": "MONKSHOT.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

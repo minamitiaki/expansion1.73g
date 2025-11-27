@@ -1,0 +1,166 @@
+{
+	"core:adela" : {
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"subtype" : "spell.bless",
+					"val" : 0
+				},
+				"attack2": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [1, 2]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [200],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack3": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [2, 3]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [100],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack4": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [3, 4]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [66],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack5": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [4, 5]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [50],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack6": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [5, 6]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [40],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack7": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [6, 7]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [33],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack8": {
+					"val" : 0,
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						"allOf", 
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"parameters": [7]
+						},{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"ALWAYS_MAXIMUM_DAMAGE",
+								-1
+							]
+						}
+					],
+					"updater": {
+						"parameters": [28],
+						"type": "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "圣灵佑佐",
+                "description": "提升圣灵佑佐效果, 阿德拉每N级提高目标10%杀伤, N为施法目标的等级(1~7级)。"
+            }
+        }
+	}
+}

@@ -1,0 +1,122 @@
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "bastilleLevel1" : {
+                "name" : "矮人矿坑",
+                "creatures" : [[ "bdefender" ]],
+				"sounds": {
+					"ambient": ["LOOPCRYS"]
+				},
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston1",
+                        "mask" : ["VVVV", "VVVV", "VVBB", "VVAB" ]
+                    }
+                }
+            },
+            "bastilleLevel2" : {
+                "name" : "猎手营地",
+                "creatures" : [[ "bjaveliner" ]],
+				"sounds": {
+					"ambient": ["LOOPCAMP"]
+				},
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston2",
+                        "mask" : [ "VVBV","VBAB" ]
+                    }
+                }
+            },
+            "bastilleLevel3" : {
+                "name" : "长屋",
+                "creatures" : [[ "bbrute" ]],
+				"sounds": {
+					"ambient": ["LOOPCAMP"]
+				},
+                "templates" : {
+                    "default" : {   
+                        "animation" : "bastille/map/dwellings/Baston3",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "bastilleLevel4" : {
+                "name" : "冰壁巢穴",
+                "creatures" : [[ "bsnowbird" ]],
+				"sounds": {
+					"ambient": ["LOOPBIRD"]
+				},
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston4",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "bastilleLevel5" : {
+                "name" : "战斗碉堡",
+                "creatures" : [[ "bgladiator" ]],
+				"sounds": {
+					"ambient": ["LOOPFLAG"]
+				},
+                "guards" : [
+                    { "amount" : 9, "type" : "bgladiator" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston5",
+                        "mask" : [ "VVV","VBB","VBA"  ]
+                    }
+                }
+            },
+            "bastilleLevel6" : {
+                "name" : "氏族厅堂",
+                "creatures" : [[ "bmammoth" ]],
+				"sounds": {
+					"ambient": ["LOOPLEAR"]
+				},
+                "guards" : [
+                    { "amount" : 6, "type" : "bmammoth" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston6",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "bastilleLevel7" : {
+                "name" : "火山口",
+                "creatures" : [[ "bsfafnir" ]],
+				"sounds": {
+					"ambient": ["LOOPDRAG"]
+				},
+                "guards" : [
+                    { "amount" : 3, "type" : "bsfafnir" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston7",
+                        "mask" : ["VVV", "VVV", "VBB","VAB" ]
+                    }
+                }
+            },
+			"bastilleLevel8" : {
+                "name" : "英灵殿",
+                "creatures" : [[ "amazonHigh" ]],
+				"sounds": {
+					"ambient": ["LOOPLEAR"]
+				},
+                "guards" : [
+                    { "amount" : 3, "type" : "amazonHigh" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston8",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            }
+        }       
+    }
+} 

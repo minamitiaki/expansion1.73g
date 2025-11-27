@@ -1,0 +1,171 @@
+{
+	"core:tower" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", ["fort"], ["dwellingLvl1"], ["dwellingLvl2"], ["dwellingLvl3" ] ], "cost" : { "gold": 2500 }},
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl5" ] },
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild1" ]  },
+				"dwellingLvl3": 
+				{
+					"cost" : 
+					{ 
+						"gold":	1500 
+					},
+				},
+				"dwellingUpLvl3": 
+				{
+					"cost" : 
+					{		 
+						"gold":	1500 
+					}
+				},
+				"dwellingLvl4": 
+				{
+					"cost" : 
+					{ 
+						"gold":	2000 
+					}
+				},
+				"dwellingUpLvl7": 
+				{ 
+					"cost" : 
+					{ 
+						"gold":	20000 
+					}
+				}
+			}
+		}
+	},
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"special2": 
+				{ 
+					"cost" :
+					{
+						"sulfur" : 4
+					}
+				},
+				"dwellingUpLvl2": 
+				{ 
+					"cost" :
+					{
+						"mercury" : 4
+					}
+				},	
+				"dwellingUpLvl3": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4
+					}
+				},	
+				"dwellingUpLvl5": 
+				{ 
+					"requires" : [ "mageGuild1" ]
+				}
+			}
+		}
+	},
+	"core:dungeon" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+			"special2":       {
+					"requires" : [ "mageGuild1" ],
+					"manualHeroVisit" : true,
+					"configuration" : {
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
+						},
+						"visitMode" : "once",
+						"canRefuse": true,
+						"rewards" : [
+							{
+								"limiter" : {
+									"noneOf" : [ { "manaPercentage" : 200 } ]
+								},
+								"message" : "{魔力漩涡}\r\n\r\n接近魔力漩涡时，你的英雄可以暂时拥有双倍的魔法值，你需要激活吗？",
+								"manaPercentage" : 200
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:necropolis" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl5": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4,
+						"ore" : 5
+					}
+				},
+			
+				"dwellingUpLvl3": 
+				{ 
+					"cost" :
+					{
+						"mercury" : 4
+					}
+				},	
+
+				"dwellingUpLvl5": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4
+					}
+				}
+			}
+		}
+	},
+	"core:stronghold" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl6": { "cost": { "crystal": null } },
+				"dwellingUpLvl6": { "cost": { "crystal": 10 } }
+			}
+		}
+	},
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"dwellingUpLvl1": 
+				{ 
+					"requires" : [ "allOf", [ "mageGuild1" ], ["horde1"] ]
+				},
+				"dwellingLvl7": 
+				{ 
+					"cost" : 
+					{ 
+						"gold":	15000,
+						"mercury" : 20
+					}
+				}
+			}
+		}
+	}
+}

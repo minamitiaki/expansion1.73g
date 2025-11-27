@@ -1,0 +1,115 @@
+{
+	"nwCon04":
+	{
+		"name" :
+		{
+			"plural" : "电子元素",
+			"singular" : "电子元素"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction": "conflux",
+		"aiValue" : 471,
+		"fightValue" : 361,
+		"attack" : 11,
+		"defense" : 9,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"min" : 4,
+			"max" : 6
+		},
+		"speed" : 8,
+		"upgrades": ["energyElemental"],
+		"graphics" :
+		{
+			"animation" : "creatures/conflux/battle/CON04.def",
+			"map" : "creatures/conflux/map/CON04S.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/CON04S.bmp",
+			"iconLarge" : "creatures/conflux/iconsBig/CON04L.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 35,
+		"growth" : 5,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "ENERATTK.wav",
+			"defend": "ENERDFND.wav",
+			"killed": "ENERKILL.wav",
+			"move": "ENERMOVE.wav",
+			"wince": "ENERWNCE.wav"
+		},
+		"abilities":
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToFire" :
+			{
+				"subtype" : "spellSchool.fire",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
+			},
+			"frostRingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 100
+			},
+			"iceBoltVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 100
+			},
+			"paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"addInfo":3,
+				"val" : 20
+			},
+			"oppositeWater" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.waterElemental",
+				"val" : 100
+			},
+			"oppositeIce" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.iceElemental",
+				"val" : 100
+			},
+			"oppositeSea" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon03",
+				"val" : 100
+			}
+		}
+	}
+}
+
+

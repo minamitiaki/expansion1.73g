@@ -1,0 +1,150 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtPigsDen" :
+             {
+				"name" : "猪圈",
+				"creatures" : [[ "nAnimal02" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/AVWaftrpi02.def",
+						"mask" : [ "VV", "AB" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/neutral/PIGSND"]
+				}								
+            },
+			"mdtApeMage" :
+             {
+				"name" : "猩法师祭坛",
+				"creatures" : [[ "napeMage" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/apeMageD.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPCAVE"]
+				}								
+            },
+			"mdtHuntress" :
+             {
+				"name" : "精灵村落",
+				"creatures" : [[ "nacrea01" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/AVWaftrpi01.def",
+						"mask" : [ "VV", "AB" ]
+					}
+				},
+				"sounds": {
+					"ambient" : ["LOOPCAVE"]
+				}								
+            },
+			"mdtCoralReef" :
+             {
+				"name" : "拜像者祭坛",
+				"creatures" : [[ "mdtMermaid" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/mermaiddw.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}								
+            },
+			"mdtWhiteQueen" :
+             {
+				"name" : "鲜花王座",
+				"creatures" : [[ "ffWhiteQueen" ]],
+				"guards" : [
+                    { "amount" : 3, "type" : "ffWhiteQueen" }
+                ],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/whitequeenD.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}								
+            },
+			"mdtEvilSorc" :
+             {
+				"name" : "巫术结界",
+				"creatures" : [[ "evilSor01" ]],
+				"guards" : [
+                    { "amount" : 3, "type" : "evilSor01" }
+                ],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/AVGEVS.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+					}
+				}								
+            },
+			"mdtvenomSpawn" :
+             {
+				"name" : "魔爪之屋",
+				"creatures" : [[ "ffvenomSpawn" ]],
+				"guards" : [
+                    { "amount" : 6, "type" : "ffvenomSpawn" }
+                ],
+				"sounds": {
+					"ambient": ["dwellings/neutral/hutHensLeg"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/ne03D.def",
+						"mask" : [ "VBV", "VBB", "VVA" ]
+					}
+				}								
+            },
+			"mdtDragonQueen" :
+             {
+				"name" : "魔龙洞窟",
+				"creatures" : [[ "ffQueenDragon" ]],
+				"guards" : [
+                    { "amount" : 3, "type" : "ffQueenDragon" }
+                ],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/ne01D.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}								
+            },
+			"mdtMegaDragon" :
+             {
+				"name" : "巨龙巢穴",
+				"creatures" : [[ "ffMegaDragon" ]],
+				"guards" : [
+                    { "amount" : 3, "type" : "ffMegaDragon" }
+                ],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/ne02D.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}								
+            }
+		}
+	}
+}

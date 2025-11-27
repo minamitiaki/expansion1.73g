@@ -1,0 +1,667 @@
+//TODO: selector-based config
+// SECONDARY_SKILL_PREMY
+// school immunities
+// LEVEL_SPELL_IMMUNITY
+
+{
+	"core:ADDITIONAL_ATTACK":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DOUBLE"
+		}
+	},
+
+	"core:ADDITIONAL_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_RETAIL1"
+		}
+	},
+
+	"core:AIR_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPAIR1"
+		}
+	},
+
+	"core:ATTACKS_ALL_ADJACENT":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_ROUND"
+		}
+	},
+
+	"core:BLOCKS_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_RETAIL"
+		}
+	},
+
+	"core:CATAPULT":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Catapult"
+		}
+	},
+	
+	"core:CATAPULT_EXTRA_SHOTS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Catapult2"
+		}
+	},
+
+	"core:CHANGES_SPELL_COST_FOR_ALLY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_MANA"
+		}
+	},
+
+	"core:CHANGES_SPELL_COST_FOR_ENEMY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/MagicDamper"
+		}
+	},
+
+	"core:CHARGE_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/ChargeImmune"
+		}
+	},
+
+	"core:DAEMON_SUMMONING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RiseDemons"
+		}
+	},
+
+	"core:DARKNESS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/darkfog"
+		}		
+	},
+
+	"core:DEATH_STARE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DEATH"
+		}
+	},
+
+	"core:DEFENSIVE_STANCE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DEFBON"
+		}
+	},
+
+	"core:DOUBLE_DAMAGE_CHANCE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DBLOW"
+		}
+	},
+
+	"core:DRAGON_NATURE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DRAGON"
+		}
+	},
+
+	"core:DIRECT_DAMAGE_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPDIR"
+		}
+	},
+
+	"core:DISGUISED":
+	{
+		"hidden": true
+	},
+
+	"core:EARTH_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPEATH1"
+		}
+	},
+
+	"core:ENCHANTER":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_CAST1"
+		}
+	},
+
+	"core:ENCHANTED":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_BLESS"
+		}
+	},
+	
+	"core:ENEMY_ATTACK_REDUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_REDUCEATTACK"
+		}
+	},
+
+	"core:ENEMY_DEFENCE_REDUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_RDEF"
+		}
+	},
+
+	"core:FIRE_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPFIRE1"
+		}
+	},
+
+	"core:FIRE_SHIELD":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_FIRE"
+		}
+	},
+	
+	"core:FEAR":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_FEAR"
+		}
+	},
+
+	"core:FEARLESS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_FEARL"
+		}
+	},
+	
+	"core:FEROCITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_FEROCITY"
+		}
+	},
+
+	"core:FLYING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_FLY"
+		}
+
+	},
+
+	"core:FREE_SHOOTING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SHOOTA"
+		}
+
+	},
+
+	"core:FULL_HP_REGENERATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_TROLL"
+		}
+	},
+
+	"core:GARGOYLE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Gargoyle"	
+		}
+	},
+	
+	"core:GENERAL_DAMAGE_REDUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/DamageReductionMelee"
+		}
+	},
+
+	"core:HATE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_HATE"
+		}
+	},
+
+	"core:HEALER":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Healer"
+		}
+	},
+
+	"core:HP_REGENERATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_TROLL"
+		}
+	},
+	
+	"core:JOUSTING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_CHAMP"
+		}
+	},
+
+	"core:KING1":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_KING1"
+		}
+	},
+
+	"core:KING2":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_KING2"
+		}
+	},
+
+	"core:KING3":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_KING3"
+		}
+	},
+
+	"core:LEVEL_SPELL_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  ""
+		}
+	},
+
+	"core:LIFE_DRAIN":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/DrainLife"
+		}
+	},
+	
+	"core:LIMITED_SHOOTING_RANGE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/LIM_SHOOT"
+		}
+	},
+
+	"core:MANA_CHANNELING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/ManaChannel"
+		}
+	},
+	
+	"core:MANA_DRAIN":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/ManaDrain"
+		}
+	},
+
+	"core:MAGIC_MIRROR":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/MagicMirror"
+		}
+	},
+
+	"core:MAGIC_RESISTANCE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DWARF"
+		}
+	},
+
+	"core:MIND_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_MIND"
+		}
+	},
+
+	"core:NONE":
+	{
+		"hidden": true
+	},
+
+	"core:NO_DISTANCE_PENALTY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_DIST"
+		}
+	},
+	
+	"core:NO_MELEE_PENALTY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_MELEE"
+		}
+	},
+
+	"core:NO_MORALE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/NEUTRALMORALE"
+		}
+	},
+//	"BLOCK_MORALE":
+//	{
+//		"graphics":
+//		{
+//			"icon":  "zvs/Lib1.res/NEGATIVEMORALE"
+//		}
+//	},	
+//	"BLOCK_LUCK":
+//	{
+//		"graphics":
+//		{
+//			"icon":  "zvs/Lib1.res/NEGATIVELUCK"
+//		}
+//	},	
+	"core:NO_WALL_PENALTY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_OBST"
+		}
+	},
+
+	"core:NO_TERRAIN_PENALTY":
+	{
+		"hidden": true
+	},
+
+	"core:NON_LIVING":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_MORAL"
+		}
+	},
+
+	"core:RANDOM_SPELLCASTER":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RandomBoost"
+		}
+	},
+
+	"core:RECEPTIVE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_NOFRIM"
+		}
+	},
+	
+	"core:REVENGE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_REVENGE"
+		}
+	},
+	
+	"core:REBIRTH":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_REBIRTH"
+		}
+	},
+
+	"core:RETURN_AFTER_STRIKE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_HARPY"
+		}
+	},
+
+	"core:SHOOTER":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SHOOT"
+		}
+	},
+	
+	"core:SOUL_STEAL":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SUMMON2"
+		}
+	},
+	
+	"core:SPELLCASTER":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_CASTER"
+		}
+	},
+
+	"core:SPELL_AFTER_ATTACK":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_CAST"
+		}
+	},
+
+	"core:SPELL_BEFORE_ATTACK":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_CAST2"
+		}
+	},
+
+	"core:SPELL_DAMAGE_REDUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_GOLEM"
+		}
+	},
+
+	"core:SPELL_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPDISB" //todo: configurable use from spell handler
+		}
+	},
+
+	"core:SPELL_LIKE_ATTACK":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPDFIRE"
+		}
+	},
+
+	"core:SPELL_RESISTANCE_AURA":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_UNIC"
+		}
+	},
+
+	"core:TWO_HEX_ATTACK_BREATH":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_BREATH"
+		}
+	},
+
+	"core:THREE_HEADED_ATTACK":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/ThreeHeaded"
+		}
+	},
+	
+	"core:TRANSMUTATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SGTYPE"
+		}
+	},
+
+	"core:UNDEAD":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_UNDEAD"
+		}
+	},
+	
+	"core:UNLIMITED_RETALIATIONS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_RETAIL2"
+		}
+	},
+
+	"core:VISIONS":
+	{
+		"hidden": true
+	},
+	
+	"core:WATER_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPWATER1"
+		}
+	},
+	"core:SHOOTS_ALL_ADJACENT":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/AREASHOT"
+		}
+	},
+	"core:DESTRUCTION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/DESTROYER"
+		}
+	},
+	"core:RANGED_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RANGEDCOUNTER"
+		}
+	},
+	"core:BLOCKS_RANGED_RETALIATION":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/RANGEDBLOCK"
+		}
+	},
+	"core:FIRST_STRIKE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/FIRSTSTRIKE"
+		}
+	},
+	"core:WIDE_BREATH":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/MEGABREATH"
+		}
+	},	
+	"core:SUMMON_GUARDIANS":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/SUMMONGUARDS"
+		}
+	}	
+}
+

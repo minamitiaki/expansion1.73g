@@ -1,0 +1,96 @@
+
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "tartarusLevel1" : {
+                "name" : "冰窖",
+                "creatures" : [[ "tartarc1" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA1",
+                        "mask" : ["VVV","VBV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel2" : {
+                "name" : "冰封之塔",
+                "creatures" : [[ "tartarc3" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA2",
+                        "mask" : [ "VVV", "VVV", "VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel3" : {
+                "name" : "女妖阁楼",
+                "creatures" : [[ "tartarc5" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "tartarus/map/dwellings/AVGTA3",
+                        "mask" : ["VVV","VBV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel4" : {
+                "name" : "寒冰地穴",
+                "creatures" : [[ "tartarc7" ]],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA4",
+                        "mask" : ["VVV","VVV","BAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel5" : {
+                "name" : "水晶蛛网",
+                "creatures" : [[ "tartarc9" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "tartarc9" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA5",
+                        "mask" : [ "VVV","VVV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel6" : {
+                "name" : "冰封神殿",
+                "creatures" : [[ "tartarca" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "tartarca" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA6",
+                        "mask" : ["VVV","VBB","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            },
+            "tartarusLevel7" : {
+                "name" : "极寒魔域",
+                "creatures" : [[ "tartarcc" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "tartarcc" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "tartarus/map/dwellings/AVGTA7",
+                        "mask" : ["VVV","VVV","VAB" ],
+						"allowedTerrains": ["snow","icelands"]
+                    }
+                }
+            }
+        }       
+    }
+}

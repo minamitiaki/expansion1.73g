@@ -1,0 +1,13 @@
+{
+	"name" : "Unlucky ones",
+	"description" : "Negative luck mod, enables this option and makes game more suited for this feature",
+	"version" : "1.0",
+	"author" : "Ivan",
+	"contact" : "http://forum.vcmi.eu/profile.php?mode=viewprofile&u=336",
+	"modType" : "Mechanics",
+
+	"creatures" :
+	[
+		"config/unlucky/creatures.json"
+	]
+}

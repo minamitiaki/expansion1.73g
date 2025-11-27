@@ -1,0 +1,100 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"ftFairyCabin" : {
+				"name" : "魔法花丛",
+				"creatures" : [[ "ftFairy1" ]],
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftArcane" : {
+				"name" : "酿酒屋",
+				"creatures" : [[ "ftFench1" ]],
+				"sounds": {
+					"ambient": ["LOOPGREM"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ftRiverLodge" : {
+				"name" : "河畔居所",
+				"creatures" : [[ "ftNoble1" ]],
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "fairy/map/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftPortal" : {
+				"name" : "微风谷",
+				"creatures" : [[ "ftWisp1" ]],
+				"sounds": {
+					"ambient": ["LOOPAIR"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"ftDragonHatchery" : {
+				"name" : "竖琴台",
+				"creatures" : [[ "ftHatchling1" ]],
+				"sounds": {
+					"ambient": ["fairy/LOOP01"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-5.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftDragonNest" : {
+				"name" : "彩虹堡",
+				"creatures" : [[ "ftWyvern1" ]],
+				"sounds": {
+					"ambient": ["fairy/LOOP01"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"ftDragonRoost" : {
+				"name" : "空中花园",
+				"creatures" : [[ "ftDrag1" ]],
+				"sounds": {
+					"ambient": ["fairy/LOOP01"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-7.def",
+				"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

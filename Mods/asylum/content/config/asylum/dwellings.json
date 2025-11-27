@@ -1,0 +1,89 @@
+
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "asylumLevel1" : {
+                "name" : "秘境之屋",
+                "creatures" : [[ "darksquire" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG177",
+                        "mask" : ["VVV","VBV","VBA" ]
+                    }
+                }
+            },
+            "asylumLevel2" : {
+                "name" : "影舞擂台",
+                "creatures" : [[ "winddancer" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG179",
+                        "mask" : [ "VVV", "VAB" ]
+                    }
+                }
+            },
+            "asylumLevel3" : {
+                "name" : "精神之窗",
+                "creatures" : [[ "shadowhunter" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "asylum/map/dwellings/AVG181",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "asylumLevel4" : {
+                "name" : "沼泽地洞",
+                "creatures" : [[ "sadphanton" ]],
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG183",
+                        "mask" : ["VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "asylumLevel5" : {
+                "name" : "灵魂序列",
+                "creatures" : [[ "spiritcrus" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "spiritcrus" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG185",
+                        "mask" : [ "VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "asylumLevel6" : {
+                "name" : "黑森林",
+                "creatures" : [[ "asnightmare" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "asnightmare" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG187",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "asylumLevel7" : {
+                "name" : "幻梦空间",
+                "creatures" : [[ "plwalker" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "plwalker" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "asylum/map/dwellings/AVG189",
+                        "mask" : ["VVV","VVV","VAB" ]
+                    }
+                }
+            }
+        }       
+    }
+}

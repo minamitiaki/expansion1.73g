@@ -1,0 +1,16 @@
+{
+	"core:broghild" :
+	{
+	"specialty" :{	"bonuses" : {
+		"selfMorale": {
+				"type" : "HP_REGENERATION",
+				"val" : 35,
+				"limiters":
+				[{
+                "type": "CREATURE_TYPE_LIMITER",
+                "parameters" : ["wyvernMonarch", true]
+              }]
+			}}
+		}
+	}
+}	

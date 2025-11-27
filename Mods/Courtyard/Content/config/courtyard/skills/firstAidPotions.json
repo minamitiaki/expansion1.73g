@@ -1,0 +1,44 @@
+{
+	"core:firstAid" : {
+		//"index" : 27,
+		"base" : {
+			"effects" : {
+				"potionsExtra" : 			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.potionSupply",
+				"val" : 0,
+				"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"parameters": [ "potionCartCreature", false ]
+					} ],
+				},
+			"additionalHP" : 
+					{ 
+							"type": "STACK_HEALTH", 
+							"val": 0, 	
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "potionCartCreature", true]	} ]
+					}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"potionsExtra" : {"val" : 1},
+				"additionalHP" : {"val" : 50}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"potionsExtra" : {"val" : 2},
+				"additionalHP" : {"val" : 100}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"potionsExtra" : {"val" : 3},
+				"additionalHP" : {"val" : 150}
+			}
+		}
+	}
+}

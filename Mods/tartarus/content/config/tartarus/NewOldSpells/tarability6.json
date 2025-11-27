@@ -1,0 +1,98 @@
+{
+	"tarability6":
+	{
+		"type": "ability", 
+		"name": "幻化成形",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":["C05SPF0"]
+		},
+ 
+		"flags" : {
+			"indifferent": true
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "NewOldSpells/USELESS1.bmp",
+			"iconScroll": "NewOldSpells/USELESS2.bmp",
+			"iconScenarioBonus": "NewOldSpells/USELESS3.bmp",
+			"iconEffect": "NewOldSpells/frozenWeb.bmp"
+		},
+
+		"sounds": {
+			"cast": "SUMNELM"
+		},
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"base":{
+				"range" : "X",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false,
+						"id":"tartarus:tartarcabe",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{幻化成形}\r\n\r\n召唤一队冰魔幻象.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 1
+	 
+			},
+			"basic":
+			{
+				"description": "{恐惧之眼}\r\n\r\n剥夺敌人下回合的反击能力。",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 1
+	 
+			},
+			"advanced":
+			{
+				"description": "{恐惧之眼}\r\n\r\n剥夺敌人下回合的反击能力。",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 1
+	 
+			},
+			"expert":
+			{
+				"description": "{恐惧之眼}\r\n\r\n剥夺敌人下回合的反击能力。",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 1,
+				"range": "X"
+	 
+			}
+		}
+	}
+ 
+}

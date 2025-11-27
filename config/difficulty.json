@@ -1,0 +1,172 @@
+//Configured difficulty
+{
+	"human":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 30, "mercury": 15, "ore": 30, "sulfur": 15, "crystal": 15, "gems": 15, "gold": 30000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"knight":
+		{
+			"resources": { "wood" : 20, "mercury": 10, "ore": 20, "sulfur": 10, "crystal": 10, "gems": 10, "gold": 20000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"rook":
+		{
+			"resources": { "wood" : 15, "mercury": 7, "ore": 15, "sulfur": 7, "crystal": 7, "gems": 7, "gold": 15000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"queen":
+		{
+			"resources": { "wood" : 10, "mercury": 4, "ore": 10, "sulfur": 4, "crystal": 4, "gems": 4, "gold": 10000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"king":
+		{
+			"resources": { "wood" : 0, "mercury": 0, "ore": 0, "sulfur": 0, "crystal": 0, "gems": 0, "gold": 0, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		}
+	},
+	"ai":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 50, "mercury": 20, "ore": 50, "sulfur": 20, "crystal": 20, "gems": 20, "gold": 40000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"knight":
+		{
+			"resources": { "wood" : 100, "mercury": 40, "ore": 100, "sulfur": 40, "crystal": 40, "gems": 40, "gold": 40000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"rook":
+		{
+			"resources": { "wood" : 100, "mercury": 70, "ore": 100, "sulfur": 70, "crystal": 70, "gems": 70, "gold": 60000, "mithril": 0 },
+			"globalBonuses": [],
+			"battleBonuses": []
+		},
+		"queen":
+		{
+			"resources": { "wood" : 150, "mercury": 70, "ore": 150, "sulfur": 70, "crystal": 70, "gems": 70, "gold": 80000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 4000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 6,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 6,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 3,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 3,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 3,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 3,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses": []
+		},
+		"king":
+		{
+			"resources": { "wood" : 150, "mercury": 70, "ore": 150, "sulfur": 70, "crystal": 70, "gems": 70, "gold": 100000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
+					"val" : 5000,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.wood",
+					"val" : 8,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.ore",
+					"val" : 8,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 4,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 4,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 4,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+				{
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 4,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			],
+			"battleBonuses": []
+		}
+	},
+}
+

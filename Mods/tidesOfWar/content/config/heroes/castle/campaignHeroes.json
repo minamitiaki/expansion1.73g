@@ -1,0 +1,95 @@
+{
+ 	"core:dracon":
+ 	{
+ 		"specialty" : {
+ 			"base" : {
+ 				"addInfo" : "creature.enchanter",
+ 				"type" : "SPECIAL_UPGRADE"
+ 			},
+ 			"bonuses" : {
+ 				"ffheretic2enchanter" : { "subtype" : "creature.ffheretic" },
+				"twArcane04enchanter" : { "subtype" : "creature.twArcane04" }
+ 			}
+ 		},
+ 	},
+ 	"core:gelu":
+ 	{
+ 		"specialty" : {
+ 			"base" : {
+ 				"addInfo" : "creature.sharpshooter",
+ 				"type" : "SPECIAL_UPGRADE"
+ 			},
+ 			"bonuses" : {
+ 				"ffredcrossbowman2sharpshooter" : { "subtype" : "creature.ffredcrossbowman" },
+				"nRP03sharpshooter" : { "subtype" : "creature.nRP03" }
+ 			}
+ 		},
+ 	},
+	"core:roland":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ffbattlegriffin", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	},
+	"core:catherine":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ffvindicator", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	},
+	"core:xeron":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ifDark07", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

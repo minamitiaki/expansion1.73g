@@ -1,0 +1,26 @@
+{
+	"altarOfMana" : {
+		"handler" : "market",
+		"name" : "海上祭坛",
+		"types" : {
+			"altarOfMana" : {
+				"name" : "海上祭坛",
+				"sounds" : {
+					"visit" : ["MYSTERY"]
+				},
+				"blockedVisitable": true,
+				"rmg" : {
+					
+				},
+				"modes" : ["creature-experience", "artifact-experience"],
+				"templates" : {
+					"AVXMALTW" : { "animation" : "hota/altarOfMana/AVXMALTW", 
+						"mask" : [ "VVV", "VBV", "VAV" ], 
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"allowedTerrains": [ "water"]
+					}
+				}
+			}
+		}
+	}		
+}

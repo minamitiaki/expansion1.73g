@@ -1,0 +1,738 @@
+{
+	"core:pikeman" :
+	{
+		"upgrades": ["halberdier", "ffpraetorian"]
+	},
+	"core:halberdier" :
+	{
+		"upgrades": ["ffpraetorian"]
+	},
+	"core:archer" :
+	{
+		"upgrades": ["marksman", "ffredcrossbowman"]
+	},
+	"core:marksman" :
+	{
+		"upgrades": ["ffredcrossbowman"]
+	},
+	"core:griffin" :
+	{
+		"upgrades": ["royalGriffin", "ffbattlegriffin"]
+	},
+	"core:royalGriffin" :
+	{
+		"upgrades": ["ffbattlegriffin"]
+	},
+	"core:swordsman" :
+	{
+		"upgrades": ["crusader", "ffvindicator"]
+	},
+	"core:crusader" :
+	{
+		"upgrades": ["ffvindicator"]
+	},
+	"core:monk" :
+	{
+		"upgrades": ["zealot", "ffheretic"]
+	},
+	"core:zealot" :
+	{
+		"upgrades": ["ffheretic"]
+	},
+	"core:cavalier" :
+	{
+		"upgrades": ["champion", "ffpaladin"]
+	},
+	"core:champion" :
+	{
+		"upgrades": ["ffpaladin"]
+	},
+	"core:angel" :
+	{
+		"upgrades": ["archangel", "ffseraph"],
+		"abilities" :
+		{
+			
+			"hateBarlogs" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ifDark07",
+				"val" : 50
+			}
+		}
+	},
+	"core:archangel" :
+	{
+		"upgrades": ["ffseraph"],
+		"abilities" :
+		{
+			"hateBarlogs" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ifDark07",
+				"val" : 50
+			}
+		}
+	},
+	"core:centaur" :
+	{
+		"upgrades": ["centaurCaptain", "nRP01"]
+	},
+	"core:centaurCaptain" :
+	{
+		"upgrades": ["nRP01"]
+	},
+	"core:dwarf" :
+	{
+		"upgrades": ["battleDwarf", "nRP02"]
+	},
+	"core:battleDwarf" :
+	{
+		"upgrades": ["nRP02"]
+	},
+	"core:woodElf" :
+	{
+		"upgrades": ["grandElf", "nRP03"]
+	},
+	"core:grandElf" :
+	{
+		"upgrades": ["nRP03"]
+	},
+	"core:pegasus" :
+	{
+		"upgrades": ["silverPegasus", "nRP04"]
+	},
+	"core:silverPegasus" :
+	{
+		"upgrades": ["nRP04"]
+	},
+	"core:dendroidGuard" :
+	{
+		"upgrades": ["dendroidSoldier", "nRP05"]
+	},
+	"core:dendroidSoldier" :
+	{
+		"upgrades": ["nRP05"]
+	},
+	"core:unicorn" :
+	{
+		"upgrades": ["warUnicorn", "nRP06"]
+	},
+	"core:warUnicorn" :
+	{
+		"upgrades": ["nRP06"]
+	},
+	"core:greenDragon" :
+	{
+		"upgrades": ["goldDragon", "nRP07"]
+	},
+	"core:goldDragon" :
+	{
+		"upgrades": ["nRP07"]
+	},
+	"core:gremlin" :
+	{
+		"upgrades": ["masterGremlin", "twArcane01"]
+	},
+	"core:masterGremlin" :
+	{
+		"upgrades": ["twArcane01"]
+	},
+	"core:stoneGargoyle" :
+	{
+		"upgrades": ["obsidianGargoyle", "twArcane02"]
+	},
+	"core:obsidianGargoyle" :
+	{
+		"upgrades": ["twArcane02"]
+	},
+	"core:ironGolem" :
+	{
+		"upgrades": ["stoneGolem", "twArcane03"],
+		"abilities" :
+		{
+		"nonliving" :
+			{
+				"type" : "MECHANICAL"
+			}
+		}
+	},
+	"core:stoneGolem" :
+	{
+		"upgrades": ["twArcane03"],
+		"abilities" :
+		{
+		"nonliving" :
+			{
+				"type" : "MECHANICAL"
+			}
+		}
+	},
+	"core:goldGolem" :
+	{
+		"abilities" :
+		{
+		"nonliving" :
+			{
+				"type" : "MECHANICAL"
+			}
+		}
+	},
+	"core:diamondGolem" :
+	{
+		"abilities" :
+		{
+		"nonliving" :
+			{
+				"type" : "MECHANICAL"
+			}
+		}
+	},
+	"core:mage" :
+	{
+		"upgrades": ["archMage", "twArcane04"]
+	},
+	"core:archMage" :
+	{
+		"upgrades": ["twArcane04"]
+	},
+	"core:genie" :
+	{
+		"upgrades": ["masterGenie", "twArcane05"],
+		"abilities" :
+		{
+			"hateGrandEfreets" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ifDark06",
+				"val" : 50
+			}
+		}
+	},
+	"core:masterGenie" :
+	{
+		"upgrades": ["twArcane05"],
+		"abilities" :
+		{
+			"hateGrandEfreets" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ifDark06",
+				"val" : 50
+			}
+		}
+	},
+	"core:naga" :
+	{
+		"upgrades": ["nagaQueen", "twArcane06"]
+	},
+	"core:nagaQueen" :
+	{
+		"upgrades": ["twArcane06"]
+	},
+	"core:giant" :
+	{
+		"upgrades": ["titan", "twArcane07"]
+	},
+	"core:titan" :
+	{
+		"upgrades": ["twArcane07"],
+		"abilities" :
+		{
+			"hateSeraphs" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.iDun07",
+				"val" : 50
+			}
+		}
+	},
+	"core:imp" :
+	{
+		"upgrades": ["familiar", "ifDark01"]
+	},
+	"core:familiar" :
+	{
+		"upgrades": ["ifDark01"]
+	},
+	"core:gog" :
+	{
+		"upgrades": ["magog", "ifDark02"]
+	},
+	"core:magog" :
+	{
+		"upgrades": ["ifDark02"]
+	},
+	"core:hellHound" :
+	{
+		"upgrades": ["cerberus", "ifDark03"]
+	},
+	"core:cerberus" :
+	{
+		"upgrades": ["ifDark03"]
+	},
+	"core:demon" :
+	{
+		"upgrades": ["hornedDemon", "ifDark04"]
+	},
+	"core:hornedDemon" :
+	{
+		"upgrades": ["ifDark04"]
+	},
+	"core:pitFiend" :
+	{
+		"upgrades": ["pitLord", "ifDark05"]
+	},
+	"core:pitLord" :
+	{
+		"upgrades": ["ifDark05"]
+	},
+	"core:efreet" :
+	{
+		"upgrades": ["efreetSultan", "ifDark06"],
+		"abilities" :
+		{
+			"hateGenieViziers" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.twArcane05",
+				"val" : 50
+			}
+		}
+	},
+	"core:efreetSultan" :
+	{
+		"upgrades": ["ifDark06"],
+		"abilities" :
+		{
+			"hateGenieViziers" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.twArcane05",
+				"val" : 50
+			}
+		}
+	},
+	"core:devil" :
+	{
+		"upgrades": ["archDevil", "ifDark07"],
+		"abilities" :
+		{
+			"hateSeraphs" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ffseraph",
+				"val" : 50
+			}
+		}
+	},
+	"core:archDevil" :
+	{
+		"upgrades": ["ifDark07"],
+		"abilities" :
+		{
+			"hateSeraphs" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ffseraph",
+				"val" : 50
+			}
+		}		
+	},
+	"core:skeleton" :
+	{
+		"upgrades": ["skeletonWarrior", "gNec01"]
+	},
+	"core:skeletonWarrior" :
+	{
+		"upgrades": ["gNec01"]
+	},
+	"core:walkingDead" :
+	{
+		"upgrades": ["zombieLord", "gNec02"]
+	},
+	"core:zombieLord" :
+	{
+		"upgrades": ["gNec02"]
+	},
+	"core:wight" :
+	{
+		"upgrades": ["wraith", "gNec03"]
+	},
+	"core:wraith" :
+	{
+		"upgrades": ["gNec03"]
+	},
+	"core:vampire" :
+	{
+		"upgrades": ["vampireLord", "gNec04"]
+	},
+	"core:vampireLord" :
+	{
+		"upgrades": ["gNec04"]
+	},
+	"core:lich" :
+	{
+		"upgrades": ["powerLich", "gNec05"]
+	},
+	"core:powerLich" :
+	{
+		"upgrades": ["gNec05"]
+	},
+	"core:blackKnight" :
+	{
+		"upgrades": ["dreadKnight", "gNec06"]
+	},
+	"core:dreadKnight" :
+	{
+		"upgrades": ["gNec06"]
+	},
+	"core:boneDragon" :
+	{
+		"upgrades": ["ghostDragon", "gNec07"]
+	},
+	"core:ghostDragon" :
+	{
+		"upgrades": ["gNec07"]
+	},
+	"core:troglodyte" :
+	{
+		"upgrades": ["infernalTroglodyte","iDun01"]
+	},
+	"core:infernalTroglodyte" :
+	{
+		"upgrades": ["iDun01"]
+	},
+	"core:harpy" :
+	{
+		"upgrades": ["harpyHag","iDun02"]
+	},
+	"core:harpyHag" :
+	{
+		"upgrades": ["iDun02"]
+	},
+	"core:beholder" :
+	{
+		"upgrades": ["evilEye","iDun03"]
+	},
+	"core:evilEye" :
+	{
+		"upgrades": ["iDun03"]
+	},
+	"core:medusa" :
+	{
+		"upgrades": ["medusaQueen","iDun04"]
+	},
+	"core:medusaQueen" :
+	{
+		"upgrades": ["iDun04"]
+	},
+	"core:minotaur" :
+	{
+		"upgrades": ["minotaurKing","iDun05"]
+	},
+	"core:minotaurKing" :
+	{
+		"upgrades": ["iDun05"]
+	},
+	"core:manticore" :
+	{
+		"upgrades": ["scorpicore","iDun06"]
+	},
+	"core:scorpicore" :
+	{
+		"upgrades": ["iDun06"]
+	},
+	"core:redDragon" :
+	{
+		"upgrades": ["blackDragon","iDun07"]
+	},
+	"core:blackDragon" :
+	{
+		"upgrades": ["iDun07"],
+		"abilities" :
+		{
+			"hateStormTitans" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.twArcane07",
+				"val" : 50
+			}
+		}
+	},
+	"core:goblin" :
+	{
+		"upgrades": ["hobgoblin","rStrn01"]
+	},
+	"core:hobgoblin" :
+	{
+		"upgrades": ["rStrn01"]
+	},
+	"core:goblinWolfRider" :
+	{
+		"upgrades": ["hobgoblinWolfRider","rStrn02"]
+	},
+	"core:hobgoblinWolfRider" :
+	{
+		"upgrades": ["rStrn02"]
+	},
+	"core:orc" :
+	{
+		"upgrades": ["orcChieftain","rStrn03"]
+	},
+	"core:orcChieftain" :
+	{
+		"upgrades": ["rStrn03"]
+	},
+	"core:ogre" :
+	{
+		"upgrades": ["ogreMage","rStrn04"]
+	},
+	"core:ogreMage" :
+	{
+		"upgrades": ["rStrn04"]
+	},
+	"core:roc" :
+	{
+		"upgrades": ["thunderbird","rStrn05"]
+	},
+	"core:thunderbird" :
+	{
+		"upgrades": ["rStrn05"],
+		"abilities" :
+		{
+		"newAbilityImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.strn05",
+				"addInfo" : 1
+			}
+		}
+	},
+	"core:cyclop" :
+	{
+		"upgrades": ["cyclopKing","rStrn06"]
+	},
+	"core:cyclopKing" :
+	{
+		"upgrades": ["rStrn06"]
+	},
+	"core:behemoth" :
+	{
+		"upgrades": ["ancientBehemoth","rStrn07"]
+	},
+	"core:ancientBehemoth" :
+	{
+		"upgrades": ["rStrn07"]
+	},
+	"core:gnoll" :
+	{
+		"upgrades": ["gnollMarauder","iFor01"]
+	},
+	"core:gnollMarauder" :
+	{
+		"upgrades": ["iFor01"]
+	},
+	"core:lizardman" :
+	{
+		"upgrades": ["lizardWarrior","iFor02"]
+	},
+	"core:lizardWarrior" :
+	{
+		"upgrades": ["iFor02"]
+	},
+	"core:serpentFly" :
+	{
+		"upgrades": ["fireDragonFly","iFor03"]
+	},
+	"core:fireDragonFly" :
+	{
+		"upgrades": ["iFor03"]
+	},
+	"core:basilisk" :
+	{
+		"upgrades": ["greaterBasilisk","iFor04"]
+	},
+	"core:greaterBasilisk" :
+	{
+		"upgrades": ["iFor04"]
+	},
+	"core:gorgon" :
+	{
+		"upgrades": ["mightyGorgon","iFor05"]
+	},
+	"core:mightyGorgon" :
+	{
+		"upgrades": ["iFor05"]
+	},
+	"core:wyvern" :
+	{
+		"upgrades": ["wyvernMonarch","iFor06"]
+	},
+	"core:wyvernMonarch" :
+	{
+		"upgrades": ["iFor06"]
+	},
+	"core:hydra" :
+	{
+		"upgrades": ["chaosHydra","iFor07"],
+		"abilities" :
+		{
+		"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			}
+		}
+	},
+	"core:chaosHydra" :
+	{
+		"upgrades": ["iFor07"],
+		"abilities" :
+		{
+		"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			}
+		}
+	},
+	"core:pixie" :
+	{
+		"upgrades": ["sprite","nwCon01"]
+	},
+	"core:sprite" :
+	{
+		"upgrades": ["nwCon01"]
+	},
+	"core:airElemental" :
+	{
+		"upgrades": ["stormElemental","nwCon02"],
+		"abilities" :
+		{
+			"oppositeLava" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon05",
+				"val" : 100
+			}
+		}
+	},
+	"core:stormElemental" :
+	{
+		"upgrades": ["nwCon02"],
+		"abilities" :
+		{
+			"oppositeLava" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon05",
+				"val" : 100
+			}
+		}
+	},
+	"core:waterElemental" :
+	{
+		"upgrades": ["iceElemental","nwCon03"],
+		"abilities" :
+		{
+			"immuneToWater" :
+			{
+				"subtype" : "spellSchool.water",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
+			},
+			"oppositeElectrical" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon04",
+				"val" : 100
+			}
+		}
+	},
+	"core:iceElemental" :
+	{
+		"upgrades": ["nwCon03"],
+		"abilities" :
+		{
+			"immuneToWater" :
+			{
+				"subtype" : "spellSchool.water",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
+			},
+			"oppositeElectrical" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon04",
+				"val" : 100
+			}
+		}
+	},
+	"core:fireElemental" :
+	{
+		"upgrades": ["energyElemental","nwCon04"],
+		"abilities" :
+		{
+			"oppositeSea" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon03",
+				"val" : 100
+			}
+		}
+	},
+	"core:energyElemental" :
+	{
+		"upgrades": ["nwCon04"],
+		"abilities" :
+		{
+			"oppositeSea" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon03",
+				"val" : 100
+			}
+		}
+	},
+	"core:earthElemental" :
+	{
+		"upgrades": ["magmaElemental","nwCon05"],
+		"abilities" :
+		{
+			"oppositeLightning" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon02",
+				"val" : 100
+			}
+		}
+	},
+	"core:magmaElemental" :
+	{
+		"upgrades": ["nwCon05"],
+		"abilities" :
+		{
+			"oppositeLightning" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon02",
+				"val" : 100
+			}
+		}
+	},
+	"core:psychicElemental" :
+	{
+		"upgrades": ["magicElemental","nwCon06"]
+	},
+	"core:magicElemental" :
+	{
+		"upgrades": ["nwCon06"]
+	},
+	"core:firebird" :
+	{
+		"upgrades": ["phoenix","nwCon07"]
+	},
+	"core:phoenix" :
+	{
+		"upgrades": ["nwCon07"]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"courtyard:04dizheel" : {
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	}
+}

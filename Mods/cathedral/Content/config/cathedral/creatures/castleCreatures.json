@@ -1,0 +1,38 @@
+{
+	"core:angel" :
+	{
+		"abilities" :
+		{
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.cthPunisher",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.cthChasteners",
+				"val" : 50
+			}
+		}
+	},
+		"core:archangel" :
+	{
+		"abilities" :
+		{
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.cthPunisher",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.cthChasteners",
+				"val" : 50
+			}
+		}
+	}
+}

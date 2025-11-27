@@ -1,0 +1,154 @@
+{
+  "tartarcab": {
+    "name": {
+      "plural": "极冰恶魔",
+      "singular": "极冰恶魔"
+    },
+    "advMapAmount": {
+ "max" : 10,
+ "min" : 5
+    },
+    "faction": "tartarus",
+	"doubleWide" : true,
+    "aiValue": 1847,
+    "attack": 18,
+    "cost": {
+      "gold": 1100
+    },
+    "damage": {
+ "max" : 22,
+ "min" : 17
+    },
+    "defense": 17,
+    "fightValue": 1585,
+    "graphics": {
+      "animation": "tartarus/battle/creatures/Tar6up.def",
+      "map": "tartarus/map/creatures/AVWTARU6.def",
+      "iconSmall": "tartarus/iconsSmall/creatures/Tar6uiconS.bmp",
+      "iconLarge": "tartarus/iconsBig/creatures/T6uicon.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.10,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "growth": 2,
+    "hitPoints": 90,
+    "level": 6,
+    "sound": {
+      "attack": "tartarus/TAR6ATTK.wav",
+      "defend": "tartarus/TAR6DFND.wav",
+      "killed": "tartarus/TAR6KILL.wav",
+      "move": "ICELMOVE",
+	  "shoot":"tartarus/TAR5SHOT.wav",
+      "wince": "tartarus/TAR6WNCE.wav"
+    },
+    "speed": 9,
+    "abilities": {
+       "immuneToWater" :
+			{
+				"subtype" : "spellSchool.water",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
+			},
+			"fireShieldVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 100
+			},
+			"infernoVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 100
+			},
+			"fireballVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 100
+			},
+			"fireWallVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWallTrigger",
+				"val" : 100
+			},
+			"armageddonVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 100
+			},
+		"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.tarability7",
+				"val" : 20
+			},
+			"castsIceSpike" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.tarability7",
+				"val" : 1
+			},
+			"castIllusion" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"addInfo" : [0,2],
+				"subtype" : "spell.tarability6",
+				"val" : 20
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+			
+    },
+    "stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			}
+		]
+}	
+}

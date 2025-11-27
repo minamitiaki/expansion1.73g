@@ -1,0 +1,138 @@
+{
+	"mdtPaladin2" : {
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 6924,
+		"attack" : 20,
+		"cost" : { "gold" : 3000, "ore" : 2 },
+		"damage" : {"max" : 45, "min" : 25},
+		"defense" : 16,
+		"faction" : "castle",
+		"fightValue" : 5453,
+		"graphics" : {
+			"animation" : "creatures/castle/battle/Cpaladin2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"iconLarge" : "creatures/castle/iconsBig/paladin2Big.png",
+			"iconSmall" : "creatures/castle/iconsSmall/paladin2Small.png",
+			"map" : "creatures/castle/map/CPldnmap2.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+		"speed" : 8,
+        "doubleWide" : false,
+		"level" : 7,
+		"upgrades": ["mdtPaladin"],
+		"name" : { "plural" : "卓绝剑士", "singular" : "卓绝剑士" },
+		"sound" :
+		{
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		} ,
+		"abilities":
+		{
+			"basicSlayer" : { "type" : "KING", "val": 3 },
+			"multiAttack": 
+			{
+				"type": "THREE_HEADED_ATTACK"
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"castsBloodLust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cas08eff",
+				"val" : 3
+			},
+			"angelbonus" :
+			{
+				"propagator" : 	"HERO",
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "ffseraph", false ]
+						} ]
+			},
+				
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.prayer",
+					"addInfo" : 3
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.bless",
+					"addInfo" : 3
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

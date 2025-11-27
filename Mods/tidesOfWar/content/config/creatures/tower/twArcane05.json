@@ -1,0 +1,103 @@
+{
+	"twArcane05":
+	{
+		"name" :
+		{
+			"plural" : "神怪长",
+			"singular" : "神怪长"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction": "tower",
+		"aiValue" : 943,
+		"fightValue" : 748,
+		"attack" : 12,
+		"defense" : 13,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"min" : 12,
+			"max" : 17
+		},
+		"speed" : 10,
+		"upgrades": ["masterGenie"],
+		"graphics" :
+		{
+			"animation" : "creatures/tower/battle/CTW5-2.def",
+			"map" : "creatures/tower/map/AVWtw5.def",
+			"iconSmall" : "creatures/tower/iconsSmall/CPrSTW025.bmp",
+			"iconLarge" : "creatures/tower/iconsBig/CPrLTW025.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			},
+		},
+		"hitPoints" : 45,
+		"growth" : 3,
+		"level" : 5,
+		"sound" :
+		{
+			"attack": "CALFATTK.wav",
+			"defend": "GENIDFND.wav",
+			"killed": "GENIKILL.wav",
+			"move": "CALFMOVE.wav",
+			"shoot": "CALFSHOT.wav",
+			"wince": "GENIWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreet",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.efreetSultan",
+				"val" : 50
+			},
+			"hateSmokeEfreets" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ifDark06",
+				"val" : 50
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castsFortune" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.fortune",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsMisfortune" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.misfortune",
+				"val" : 3,
+				"addInfo" : 3
+			}
+		}
+	}
+}
+
+

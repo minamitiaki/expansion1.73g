@@ -1,0 +1,155 @@
+{
+	"hollowEye" : {
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+		"class" : "MAJOR",
+		"value" : 7500,
+		"bonuses" : [
+			{
+				"subtype" : "spell.blind",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "SIGHT_RADIUS",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/hollowEye",
+			"map" : "hota/supplementary/artifacts/hollowEyeMap",
+			"large" : "hota/supplementary/artifacts/hollowEyeBonus"
+		},
+		"text" : {
+			"description" : "{空洞之眼}\r\n\r\n使英雄视野提升2格,并且免疫失明魔法的影响。",
+			"event" : "在黑暗的沼泽中探索很久的你终于发现了一个神秘的望远镜，你捡起它，希望它能够帮你走出这片无尽的沼泽。",
+			"name" : "空洞之眼"
+		}
+	},
+	"greatBattleBow" : {
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+		"class" : "MAJOR",
+		"value" : 7500,
+		"bonuses" : [
+			{
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"val" : 15,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PERCENTAGE_DAMAGE_BOOST",
+							"damageTypeRanged",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.archery"
+							}
+						]
+					}
+				]
+			}
+		],
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/greaterBow",
+			"map" : "hota/supplementary/artifacts/greaterBowMap",
+			"large" : "hota/supplementary/artifacts/greaterBowBonus"
+		},
+		"text" : {
+			"description" : "{巨大战弓}\r\n\r\n巨大战弓使英雄的箭术提升15%。",
+			"event" : "有一个弓箭手试图拉开这个巨大的战弓，可是他使出全身力气都不行，你路过之后，轻易地拉开战弓，让他目瞪口呆，他已经没有脸面要回这把弓了。",
+			"name" : "巨大战弓"
+		}
+	},
+	"fangOfTheLastScream" : {
+		"type" : [ "HERO" ],
+		"slot" : "RIGHT_HAND",
+		"class" : "MAJOR",
+		"value" : 7500,
+		"bonuses" : [
+			{
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"addInfo" : 0,
+				"subtype" : "spell.bloodlust",
+				"type" : "SPECIAL_PECULIAR_ENCHANT"
+			}
+		],
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/fangScream",
+			"map" : "hota/supplementary/artifacts/fangScreamMap",
+			"large" : "hota/supplementary/artifacts/fangScreamBonus"
+		},
+		"text" : {
+			"description" : "{尖叫之牙}\r\n\r\n佩戴尖叫之牙可以使英雄的攻击力+5，并使英雄拥有嗜血奇术的特长加成。",
+			"event" : "在黑暗的沼泽中探索很久的你终于发现了一个神秘的钢爪，你捡起它，希望它能够帮你斩断荆棘，化险为夷。",
+			"name" : "尖叫之牙"
+		}
+	},
+	"greatWoeOfTheCrawlers" : {
+		"class" : "RELIC",
+		"components" : [ "fangOfTheLastScream", "greatBattleBow", "hollowEye" ],
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/crawler",
+			"map" : "hota/supplementary/artifacts/crawlerMap",
+			"large" : "hota/supplementary/artifacts/crawlerBonus"
+		},
+		"slot" : "RIGHT_HAND",
+		"text" : {
+			"description" : "{爬行者之灾}\r\n\r\n爬行者之灾是帕克塔尔家族世代传承的宝物。拥有它可以使英雄的四项基本属性+3，所有要塞生物可以获得30%的伤害加成和2点速度。",
+			"event" : "漏出地面的尖爪让你以为这是某种野兽的残骸，而走近查看，你发现了爬行者之灾。这是帕克塔尔家族世代传承的宝物。",
+			"name" : "爬行者之灾"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{ 
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 30,
+					"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
+			}
+		],
+
+		"type" : [ "HERO" ],
+		"value" : 10000
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"iFor06"://blood wyvern
+	{
+		"name" :
+		{
+			"plural" : "腐血飞龙",
+			"singular" : "腐血飞龙"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction": "fortress",
+		"doubleWide" : true,
+		"description" : "{技能说明}： \n{酸雾血液}： 攻击后 30%几率造成目标周围生物防御力-2,可叠加。除自身免疫外不分敌我。",
+		"aiValue" : 1519,
+		"fightValue" : 1182,
+		"attack" : 14,
+		"defense" : 13,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"damage" :
+		{
+			"min" : 16,
+			"max" : 22
+		},
+		"speed" : 12,
+		"upgrades": ["wyvernMonarch"],
+		"graphics" :
+		{
+			"animation" : "creatures/fortress/battle/iFor06B.def",
+			"map" : "creatures/fortress/map/iFor06M.def",
+			"iconSmall" : "creatures/fortress/iconsSmall/iFor06S.bmp",
+			"iconLarge" : "creatures/fortress/iconsBig/iFor06L.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 70,
+		"growth" : 2,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "WYVMATTK.wav",
+			"defend": "WYVMDFND.wav",
+			"killed": "WYVMKILL.wav",
+			"move": "WYVMMOVE.wav",
+			"wince": "WYVMWNCE.wav"
+		},
+		"abilities":
+		{
+			"FLYING_ARMY": {"type": "FLYING"},
+			"newAbilityImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iFor06eff",
+				"addInfo" : 1
+			},
+			"acid" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.iFor06eff",
+				"val" : 30
+			}
+		}
+	}
+}
+
+

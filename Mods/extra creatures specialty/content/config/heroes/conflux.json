@@ -1,0 +1,279 @@
+{
+	"core:lacus":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "waterElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 12
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 2
+				}						
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "水元素",
+                "description": "使水元素及其升级形态攻击力+12。速度+2。"
+            }
+        }
+	},
+	"core:kalt":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "waterElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 12
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 4
+				}		
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "水元素",
+                "description": "使水元素及其升级形态攻击力+12。伤害+4。"
+            }
+        }
+	},
+	"core:fiur":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "fireElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 4
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 3
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 3
+				}					
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "火元素",
+                "description": "使火元素及其升级形态攻击力+3，防御力+4，杀伤+4。速度+3"
+            }
+        }
+	},
+	"core:ignissa":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "fireElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 8
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "火元素",
+                "description": "使火元素及其升级形态攻击力+5，防御力+5，杀伤+8。"
+            }
+        }
+	},
+	"core:thunar":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "earthElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 20
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "土元素",
+                "description": "使土元素及其升级形态攻击力+5，防御力+20，杀伤+5。"
+            }
+        }
+	},
+	"core:erdamon":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "earthElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 16
+				},
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 10
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				}
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "土元素",
+                "description": "使土元素及其升级形态攻击力+10，防御力+5，杀伤+16。"
+            }
+        }
+	},
+	"core:monere":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "psychicElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 24
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 2
+				}		
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "精神元素",
+                "description": "使精神元素及其升级形态攻击力+5，防御力+5。速度+2，杀伤+24。"
+            }
+        }
+	},
+	"core:pasis":{
+		"specialty": {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "psychicElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 10
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 10
+				},
+				"damage": {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE",
+					"val" : 24
+				}		
+			}
+		},
+        "texts": {
+            "specialty": {
+                "name": "精神元素",
+                "description": "使精神元素及其升级形态攻击力+10，防御力+10。伤害+24。"
+            }
+        }
+	}
+}

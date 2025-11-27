@@ -1,0 +1,113 @@
+{
+	"nwCon05":
+	{
+		"name" :
+		{
+			"plural" : "熔岩元素",
+			"singular" : "熔岩元素"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction": "conflux",
+		"aiValue" : 491,
+		"fightValue" : 490,
+		"attack" : 11,
+		"defense" : 11,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			"min" : 6,
+			"max" : 9
+		},
+		"speed" : 5,
+		"upgrades": ["magmaElemental"],
+		"graphics" :
+		{
+			"animation" : "creatures/conflux/battle/CON05.def",
+			"map" : "creatures/conflux/map/CON05S.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/CON05S.bmp",
+			"iconLarge" : "creatures/conflux/iconsBig/CON05L.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 45,
+		"growth" : 4,
+		"level" : 5,
+		"sound" :
+		{
+			"attack": "MAGMATTK.wav",
+			"defend": "MAGMDFND.wav",
+			"killed": "MAGMKILL.wav",
+			"move": "MAGMMOVE.wav",
+			"wince": "MAGMWNCE.wav"
+		},
+		"abilities":
+		{
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"fireShield" :
+			{
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"meteorShowerVulnerability" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 100
+			},
+			"lightingImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.lightningBolt"
+			},
+			"chainLightingImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.chainLightning"
+			},			
+			"armageddonImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon"
+			},
+			"oppositeAir" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.airElemental",
+				"val" : 100
+			},
+			"oppositeStorm" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.stormElemental",
+				"val" : 100
+			},
+			"oppositeLightning" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.nwCon02",
+				"val" : 100
+			}
+		}
+	}
+}
+
+
