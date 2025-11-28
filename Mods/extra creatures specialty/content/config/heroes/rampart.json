@@ -37,6 +37,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["dwarf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},							
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -52,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "矮人",
-                "description": "每2级提高矮人及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高矮人及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
             }
         }
 	},
@@ -94,6 +105,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["woodElf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -109,7 +131,7 @@
         "texts": {
             "specialty": {
                 "name": "木精灵",
-                "description": "每3级提高木精灵及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高木精灵及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -151,6 +173,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["pegasus", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -166,7 +199,7 @@
         "texts": {
             "specialty": {
                 "name": "飞马",
-                "description": "每4级提高飞马及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高飞马及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -208,6 +241,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["dendroidGuard", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -223,7 +267,7 @@
         "texts": {
             "specialty": {
                 "name": "枯木卫士",
-                "description": "每5级提高枯木卫士及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高枯木卫士及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -265,6 +309,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["unicorn", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -280,7 +335,7 @@
         "texts": {
             "specialty": {
                 "name": "独角兽",
-                "description": "每6级提高枯木卫及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高独角兽及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	}
