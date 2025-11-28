@@ -851,14 +851,14 @@
 					"subtype" : "spell.fireShield",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"updater" : "TIMES_HERO_LEVEL",
-					"addInfo" : 5
+					"addInfo" : 10
 				}
 			}
 		},
 		"texts": {
             "specialty": {
                 "name": "烈火神盾",
-                "description": "英雄每升一级，施放的烈火神盾魔法反弹的伤害增加5%。"
+                "description": "英雄每升一级，施放的烈火神盾魔法反弹的伤害增加10%。"
 						}
 				}
 	},
@@ -1213,14 +1213,14 @@
 					"subtype" : "spell.fireShield",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"updater" : "TIMES_HERO_LEVEL",
-					"addInfo" : 5
+					"addInfo" : 10
 				}
 			}
 		},
 		"texts": {
             "specialty": {
                 "name": "烈火神盾",
-                "description": "英雄每升一级，施放的烈火神盾魔法反弹的伤害增加5%。"
+                "description": "英雄每升一级，施放的烈火神盾魔法反弹的伤害增加10%。"
 						}
 				}
 	}
