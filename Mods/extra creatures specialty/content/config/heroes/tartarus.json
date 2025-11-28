@@ -38,6 +38,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["tartarca", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -54,7 +65,7 @@
         "texts": {
             "specialty": {
                 "name": "冰恶魔",
-                "description": "每6级提高冰恶魔及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高冰恶魔及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -100,7 +111,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 2,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -114,7 +125,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤2点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	},
@@ -157,6 +168,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["tartarc9", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -173,7 +195,7 @@
         "texts": {
             "specialty": {
                 "name": "魔蛛",
-                "description": "每5级提高魔蛛及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高魔蛛及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -216,6 +238,17 @@
 						}
 					],
 				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["tartarc7", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -232,7 +265,7 @@
         "texts": {
             "specialty": {
                 "name": "寒冰守卫",
-                "description": "每4级提高寒冰守卫及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高寒冰守卫及其升级形态20%的攻击力和防御力。速度+1。生命+20。"
             }
         }
 	},
@@ -275,6 +308,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["tartarc5", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -291,7 +335,7 @@
         "texts": {
             "specialty": {
                 "name": "女妖",
-                "description": "每3级提高女妖及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高女妖及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -334,6 +378,28 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["tartarc3", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["tartarc3", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},									
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -350,7 +416,7 @@
         "texts": {
             "specialty": {
                 "name": "冰傀儡",
-                "description": "每2级提高冰傀儡及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高冰傀儡及其升级形态20%的攻击力和防御力。速度+1。伤害+2。生命+5。"
             }
         }
 	},
@@ -393,6 +459,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["tartarc1", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -409,7 +486,7 @@
         "texts": {
             "specialty": {
                 "name": "恶灵仆从",
-                "description": "每1级提高恶灵仆从及其升级形态10%的攻击力和防御力。速度+1。"
+                "description": "每1级提高恶灵仆从及其升级形态10%的攻击力和防御力。速度+1。伤害+1。"
             }
         }
 	}
