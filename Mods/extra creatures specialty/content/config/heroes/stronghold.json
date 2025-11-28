@@ -37,6 +37,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["goblin", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -52,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "大耳怪",
-                "description": "每1级提高大耳怪及其升级形态10%的攻击力和防御力。速度+1。"
+                "description": "每1级提高大耳怪及其升级形态10%的攻击力和防御力。速度+1。伤害+1。"
             }
         }
 	},
@@ -94,6 +105,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["goblinWolfRider", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -109,7 +131,7 @@
         "texts": {
             "specialty": {
                 "name": "恶狼骑士",
-                "description": "每2级提高恶狼骑士及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高恶狼骑士及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
             }
         }
 	},
@@ -151,6 +173,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["orc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -166,7 +199,7 @@
         "texts": {
             "specialty": {
                 "name": "半兽人",
-                "description": "每3级提高半兽人及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高半兽人及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -208,6 +241,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -223,7 +267,7 @@
         "texts": {
             "specialty": {
                 "name": "食人魔",
-                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -265,6 +309,17 @@
 						}
 					]
 				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -280,7 +335,7 @@
         "texts": {
             "specialty": {
                 "name": "食人魔",
-                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。生命+20。"
             }
         }
 	},
@@ -322,9 +377,21 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+                    "valueType": "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["ogre", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
-					"val": 1,
+					"val": 3,
 					"limiters": [
 						{
 							"parameters": ["ogre", true],
@@ -337,7 +404,7 @@
         "texts": {
             "specialty": {
                 "name": "食人魔",
-                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高食人魔及其升级形态20%的攻击力和防御力。速度+3。"
             }
         }
 	},
@@ -379,6 +446,18 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+                    "valueType": "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["roc", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},							
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -394,7 +473,7 @@
         "texts": {
             "specialty": {
                 "name": "大雕",
-                "description": "每5级提高大雕及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高大雕及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -436,6 +515,18 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+                    "valueType": "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["cyclop", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -451,7 +542,7 @@
         "texts": {
             "specialty": {
                 "name": "独眼巨人",
-                "description": "每6级提高独眼巨人及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高独眼巨人及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -479,14 +570,18 @@
 				"defence" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL",
-					"val" : 10
+					"val" : 24
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1
 				}
 			}
 		},
         "texts": {
             "specialty": {
                 "name": "比蒙巨兽",
-                "description": "使比蒙巨兽及其升级形态攻击力+10，防御力+10，杀伤+10"
+                "description": "使比蒙巨兽及其升级形态攻击力+10，防御力+10，杀伤+24, 速度+1。"
             }
         }
 	},
@@ -531,7 +626,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 2,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -545,7 +640,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤2点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	}
