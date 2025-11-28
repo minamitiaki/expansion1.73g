@@ -42,7 +42,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 12,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC11B", true],
@@ -113,7 +113,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 16,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC11", true],
@@ -184,7 +184,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 12,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC09", true],
@@ -255,7 +255,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 8,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC07", true],
@@ -326,7 +326,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 4,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC05", true],
@@ -397,7 +397,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 2,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC03", true],
@@ -468,7 +468,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 1,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["havC01", true],
@@ -539,7 +539,7 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 1,
-                    "valueType": "BASE_NUMBER",
+
 					"limiters": [
 						{
 							"parameters": ["skeleton", true],

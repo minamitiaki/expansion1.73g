@@ -37,6 +37,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["imp", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -52,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "小怪物",
-                "description": "每1级提高小怪物及其升级形态10%的攻击力和防御力。速度+1。"
+                "description": "每1级提高小怪物及其升级形态10%的攻击力和防御力。速度+1。伤害+1。"
             }
         }
 	},
@@ -94,6 +105,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["gog", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -109,7 +131,7 @@
         "texts": {
             "specialty": {
                 "name": "歌革",
-                "description": "每2级提高歌革及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高歌革及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
             }
         }
 	},
@@ -151,6 +173,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["hellHound", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -166,7 +199,7 @@
         "texts": {
             "specialty": {
                 "name": "地狱猎犬",
-                "description": "每3级提高地狱猎犬及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高地狱猎犬及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -208,6 +241,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["demon", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -223,7 +267,7 @@
         "texts": {
             "specialty": {
                 "name": "恶鬼",
-                "description": "每4级提高恶鬼及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高恶鬼及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -265,6 +309,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["pitFiend", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -280,7 +335,7 @@
         "texts": {
             "specialty": {
                 "name": "邪神",
-                "description": "每5级提高邪神及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高邪神及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -322,6 +377,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -337,7 +403,7 @@
         "texts": {
             "specialty": {
                 "name": "火精灵",
-                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -363,6 +429,11 @@
 					"type" : "PRIMARY_SKILL",
 					"val" : 10
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 24,
+				},					
 				"speed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 1
@@ -372,7 +443,7 @@
         "texts": {
             "specialty": {
                 "name": "恶魔",
-                "description": "使恶魔及其升级形态攻击力+10，防御力+10，速度+1。"
+                "description": "使恶魔及其升级形态攻击力+10，防御力+10，速度+1。伤害+24。"
             }
         }
 	},
@@ -417,7 +488,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 2,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -431,7 +502,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤2点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	}

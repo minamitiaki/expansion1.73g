@@ -41,7 +41,6 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 1,
-                    "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
 							"parameters": ["gnoll", true],
@@ -110,7 +109,6 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 2,
-                    "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
 							"parameters": ["lizardman", true],
@@ -179,7 +177,6 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 4,
-                    "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
 							"parameters": ["serpentFly", true],
@@ -248,7 +245,6 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 8,
-                    "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
 							"parameters": ["basilisk", true],
