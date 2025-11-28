@@ -38,6 +38,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 24,
+					"limiters": [
+						{
+							"parameters": ["anubis", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -54,7 +65,7 @@
         "texts": {
             "specialty": {
                 "name": "冥神使",
-                "description": "每7级提高冥神使及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每7级提高冥神使及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
             }
         }
 	},
@@ -97,6 +108,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["sphinx", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -113,7 +135,7 @@
         "texts": {
             "specialty": {
                 "name": "人面狮",
-                "description": "每6级提高人面狮及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高人面狮及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -156,6 +178,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["ammut", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -172,7 +205,7 @@
         "texts": {
             "specialty": {
                 "name": "恐鳄",
-                "description": "每5级提高恐鳄及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高恐鳄及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -215,6 +248,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["sekhmet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -231,7 +275,7 @@
         "texts": {
             "specialty": {
                 "name": "谜影侍女",
-                "description": "每4级提高谜影侍女及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高谜影侍女及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -274,6 +318,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["camelRider", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -290,7 +345,7 @@
         "texts": {
             "specialty": {
                 "name": "骆驼骑兵",
-                "description": "每3级提高骆驼骑兵及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高骆驼骑兵及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -333,6 +388,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["wadjet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -349,7 +415,7 @@
         "texts": {
             "specialty": {
                 "name": "沙蛇",
-                "description": "每2级提高沙蛇及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高沙蛇及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
             }
         }
 	},
@@ -392,6 +458,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 1,
+					"limiters": [
+						{
+							"parameters": ["whipper", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -408,7 +485,7 @@
         "texts": {
             "specialty": {
                 "name": "督工",
-                "description": "每1级提高督工及其升级形态10%的攻击力和防御力。速度+1。"
+                "description": "每1级提高督工及其升级形态10%的攻击力和防御力。速度+1。伤害+1。"
             }
         }
 	}
