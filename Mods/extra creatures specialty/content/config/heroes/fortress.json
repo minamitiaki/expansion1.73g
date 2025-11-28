@@ -312,15 +312,24 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 12,
-                    "valueType": "BASE_NUMBER",
+					"val": 8,
 					"limiters": [
 						{
 							"parameters": ["gorgon", true],
 							"type": "CREATURE_TYPE_LIMITER"
 						}
 					],
-				},						
+				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 30,
+					"limiters": [
+						{
+							"parameters": ["walkingDead", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},											
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -336,7 +345,7 @@
         "texts": {
             "specialty": {
                 "name": "野牛",
-                "description": "每5级提高野牛及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
+                "description": "每5级提高野牛及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+30。"
             }
         }
 	},
@@ -382,7 +391,6 @@
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
 					"val": 16,
-                    "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
 							"parameters": ["wyvern", true],
