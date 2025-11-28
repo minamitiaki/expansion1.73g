@@ -37,6 +37,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 2,
+					"limiters": [
+						{
+							"parameters": ["stoneGargoyle", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -52,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "石像鬼",
-                "description": "每2级提高石像鬼及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每2级提高石像鬼及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
             }
         }
 	},
@@ -94,6 +105,28 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["ironGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["ironGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},										
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -109,7 +142,7 @@
         "texts": {
             "specialty": {
                 "name": "石人",
-                "description": "每3级提高石人及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高石人及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -151,6 +184,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["mage", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -166,7 +210,7 @@
         "texts": {
             "specialty": {
                 "name": "法师",
-                "description": "每4级提高法师及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高法师及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -208,6 +252,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["genie", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -223,7 +278,7 @@
         "texts": {
             "specialty": {
                 "name": "神怪",
-                "description": "每5级提高神怪及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高神怪及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -265,6 +320,27 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["genie", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"limiters": [
+						{
+							"parameters": ["genie", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},										
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -280,7 +356,7 @@
         "texts": {
             "specialty": {
                 "name": "神怪",
-                "description": "每5级提高神怪及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高神怪及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+20。"
             }
         }
 	},
@@ -322,6 +398,17 @@
 						}
 					]
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["naga", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},			
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -337,7 +424,7 @@
         "texts": {
             "specialty": {
                 "name": "蛇女",
-                "description": "每6级提高蛇女及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高蛇女及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -382,7 +469,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 2,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -396,7 +483,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤2点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	}
