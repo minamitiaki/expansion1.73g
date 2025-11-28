@@ -37,6 +37,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 24,
+					"limiters": [
+						{
+							"parameters": ["mdtTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -52,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "圣堂武士",
-                "description": "每7级提高圣堂武士及其升级形态20%的攻击力和防御力并拥有正士气。速度+1。"
+                "description": "每7级提高圣堂武士及其升级形态20%的攻击力和防御力并拥有正士气。速度+1。伤害+24。"
             }
         }
 	},
@@ -94,6 +105,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["mdtTemplar", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -109,7 +131,7 @@
         "texts": {
             "specialty": {
                 "name": "林妖",
-                "description": "每4级提高林妖及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高林妖及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -151,6 +173,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 24,
+					"limiters": [
+						{
+							"parameters": ["mdtDrakeGolem", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -166,7 +199,7 @@
         "texts": {
             "specialty": {
                 "name": "傀儡龙",
-                "description": "每7级提高傀儡龙及其升级形态20%的攻击力和防御力。速度+1。魔法抵抗力+10%。"
+                "description": "每7级提高傀儡龙及其升级形态20%的攻击力和防御力。速度+1。魔法抵抗力+10%。伤害+24。"
             }
         }
 	},
@@ -208,6 +241,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["mdtSukkub", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -224,7 +268,7 @@
         "texts": {
             "specialty": {
                 "name": "魅魔",
-                "description": "每4级提高魅魔及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高魅魔及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -266,6 +310,28 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["mdtWerewolf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["mdtWerewolf", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},								
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -282,7 +348,7 @@
         "texts": {
             "specialty": {
                 "name": "狼人",
-                "description": "每4级提高狼人及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高狼人及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+10。"
             }
         }
 	},
@@ -324,6 +390,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["medusa", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -339,7 +416,7 @@
         "texts": {
             "specialty": {
                 "name": "美杜莎",
-                "description": "每4级提高美杜莎及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每4级提高美杜莎及其升级形态20%的攻击力和防御力。速度+1。伤害+8。"
             }
         }
 	},
@@ -381,6 +458,28 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["mdtIllithid", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["mdtIllithid", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -397,7 +496,7 @@
         "texts": {
             "specialty": {
                 "name": "摄魂怪",
-                "description": "每5级提高摄魂怪及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高摄魂怪及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+20。"
             }
         }
 	},
@@ -439,6 +538,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 16,
+					"limiters": [
+						{
+							"parameters": ["mdtCouatl", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -455,7 +565,7 @@
         "texts": {
             "specialty": {
                 "name": "风蛇",
-                "description": "每6级提高风蛇及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高风蛇及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -497,6 +607,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 24,
+					"limiters": [
+						{
+							"parameters": ["hydra", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},				
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -512,7 +633,7 @@
 		"texts": {
             "specialty": {
                 "name": "九头怪",
-                "description": "每7级提高九头怪及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每7级提高九头怪及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
             }
         }
 	},
@@ -554,6 +675,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 12,
+					"limiters": [
+						{
+							"parameters": ["mdtTrollHag", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -570,7 +702,7 @@
         "texts": {
             "specialty": {
                 "name": "洞穴巫女",
-                "description": "每5级提高洞穴巫女及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每5级提高洞穴巫女及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
@@ -612,6 +744,17 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 4,
+					"limiters": [
+						{
+							"parameters": ["mdtTriton", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},					
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -627,7 +770,7 @@
         "texts": {
             "specialty": {
                 "name": "海卫兵",
-                "description": "每3级提高海卫兵及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每3级提高海卫兵及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
             }
         }
 	},
@@ -669,6 +812,28 @@
 						}
 					],
 				},
+				"damage": {
+					"subtype": "creatureDamageBoth",
+					"type": "CREATURE_DAMAGE",
+					"val": 8,
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 30,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["efreet", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},								
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -685,7 +850,7 @@
         "texts": {
             "specialty": {
                 "name": "火精灵",
-                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。"
+                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+30。"
             }
         }
 	}
