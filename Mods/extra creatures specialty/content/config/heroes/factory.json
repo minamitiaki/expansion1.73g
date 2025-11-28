@@ -753,7 +753,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 16,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -767,7 +767,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤16点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	}

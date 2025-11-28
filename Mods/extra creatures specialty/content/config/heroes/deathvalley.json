@@ -41,14 +41,25 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 16,
+					"val" : 12,
 					"limiters": [
 						{
 							"parameters": ["reaper1", true],
 							"type": "CREATURE_TYPE_LIMITER"
 						}
 					],
-				},		
+				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["wight", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},							
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -65,7 +76,7 @@
         "texts": {
             "specialty": {
                 "name": "收割者",
-                "description": "每6级提高收割者及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
+                "description": "每6级提高收割者及其升级形态20%的攻击力和防御力。速度+1。伤害+12。生命+20。"
             }
         }
 	},

@@ -189,7 +189,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 4,
+					"val": 1,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -197,7 +197,18 @@
 							"type": "CREATURE_TYPE_LIMITER"
 						}
 					],
-				},				
+				},			
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 18,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["wight", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},									
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -213,7 +224,7 @@
         "texts": {
             "specialty": {
                 "name": "幽灵",
-                "description": "每3级提高幽灵及其升级形态20%的攻击力和防御力。速度+1。伤害+4。"
+                "description": "每3级提高幽灵及其升级形态20%的攻击力和防御力。速度+1。伤害+1。生命+18。"
             }
         }
 	},
