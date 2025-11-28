@@ -41,7 +41,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 24,
+					"val" : 16,
 					"limiters": [
 						{
 							"parameters": ["reaper1", true],
@@ -65,7 +65,7 @@
         "texts": {
             "specialty": {
                 "name": "收割者",
-                "description": "每6级提高收割者及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
+                "description": "每6级提高收割者及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -111,7 +111,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 16,
+					"val": 12,
                     "valueType": "BASE_NUMBER",
 					"limiters": [
 						{
@@ -125,7 +125,7 @@
         "texts": {
             "specialty": {
                 "name": "弩车",
-                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤16点。"
+                "description": "每5级提高弩车30%的攻击力和防御力。提升弩车基础杀伤12点。"
             }
         }
 	},
@@ -171,7 +171,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 16,
+					"val" : 12,
 					"limiters": [
 						{
 							"parameters": ["banshee", true],
@@ -195,7 +195,7 @@
         "texts": {
             "specialty": {
                 "name": "暗女巫",
-                "description": "每5级提高暗女巫及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
+                "description": "每5级提高暗女巫及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
