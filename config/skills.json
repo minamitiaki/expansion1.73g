@@ -10,16 +10,19 @@
 			}
 		},
 		"basic" : {
+			"description": "{初级寻路术}\n\n不良地形影响减少50%。",		
 			"effects" : {
 				"main" : { "val" : 50 }
 			}
 		},
 		"advanced" : {
+			"description": "{中级寻路术}\n\n不良地形影响减少75%。",				
 			"effects" : {
 				"main" : { "val" : 75 }
 			}
 		},
 		"expert" : {
+			"description": "{高级寻路术}\n\n不良地形影响减少100%。",				
 			"effects" : {
 				"main" : { "val" : 100 }
 			}
@@ -37,16 +40,19 @@
 			}
 		},
 		"basic" : {
+			"description": "{初级箭术}\n\n初级箭术提高所有单位远程杀伤20%。",			
 			"effects" : {
 				"main" : { "val" : 20 }
 			}
 		},
 		"advanced" : {
+			"description": "{中级箭术}\n\n中级箭术提高所有单位远程杀伤50%。",		
 			"effects" : {
 				"main" : { "val" : 50 }
 			}
 		},
 		"expert" : {
+			"description": "{高级箭术}\n\n高级箭术提高所有单位远程杀伤100%。",		
 			"effects" : {
 				"main" : { "val" : 100 }
 			}
@@ -179,14 +185,22 @@
 				{ 
 							"type" : "STACK_HEALTH",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle","cathedral"]} ]
+							"limiters": {
+								"anyOf": 
+								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["cathedral"]}]
+							}
 				},
 				"fifthEffect" :
 				{ 
 							"type" : "CREATURE_DAMAGE",
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle","cathedral"]} ]
+							"limiters": {
+								"anyOf": 
+								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["cathedral"]}]
+							}
 				}
 			}
 		},
@@ -325,12 +339,14 @@
 			}
 		},
 		"basic" : {
+			"description": "{初级弹道术}\n\n初级弹道术允许玩家控制攻城车。\n\n同时提高所有单位远程杀伤20%。",		
 			"effects" : {
 				"main" : { "val" : 1 },
 				"extra" : { "val" : 20 }
 			}
 		},
 		"advanced" : {
+			"description": "{中级弹道术}\n\n中级弹道术允许玩家控制攻城车。攻城次数+1\n\n同时提高所有单位远程杀伤30%，且无视城墙。",				
 			"effects" : {
 				"main" : { "val" : 2 },
 				"extra" : { "val" : 30 },
@@ -344,6 +360,7 @@
 			}
 		},
 		"expert" : {
+			"description": "{高级弹道术}\n\n高级弹道术允许玩家控制攻城车。攻城次数+2\n\n同时提高所有单位远程杀伤40%，且无视城墙与距离。",				
 			"effects" : {
 				"main" : { "val" : 3 },
 				"extra" : { "val" : 40 },
@@ -465,14 +482,24 @@
 				{ 
 							"type" : "STACK_HEALTH",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle","cathedral"]} ]
+							"limiters": {
+								"anyOf": 
+								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["inferno"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["factory"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["bastille"]}]
+							}		
 				},
 				"fifthEffect" :
 				{ 
 							"type" : "CREATURE_DAMAGE",
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["inferno","bastille","factory"]} ]
+							"limiters": {
+								"anyOf": 
+								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["inferno"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["factory"]},
+								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["bastille"]}]
+							}	
 				}
 			}
 		},
