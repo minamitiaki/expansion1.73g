@@ -253,13 +253,6 @@
 				"range" : "X"
 			}
 		},
-		"school":
-		{
-			"air": true,
-			"earth": true,
-			"fire": true,
-			"water": true
-		},		
 		"flags" : {
 			"indifferent": true
 		}
@@ -276,13 +269,6 @@
 				"range" : "X"
 			}
 		},
-		"school":
-		{
-			"air": true,
-			"earth": true,
-			"fire": true,
-			"water": true
-		},			
 		"flags" : {
 			"indifferent": true
 		}

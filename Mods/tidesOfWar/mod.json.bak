@@ -258,7 +258,7 @@
 		"config/skills/sorcery",
 		"config/skills/estates",
 		"config/skills/mysticism",
-		//"config/skills/magicFader",
+		"config/skills/magicFader",
 		"config/skills/intimidation"
 	]
 }
