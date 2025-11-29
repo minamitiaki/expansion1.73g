@@ -305,19 +305,33 @@
 		"basic" : {
 			"effects" : {
 				"main" : { "val" : 1 },
-				"extra" : { "val" : 10 }
+				"extra" : { "val" : 25 }
 			}
 		},
 		"advanced" : {
 			"effects" : {
 				"main" : { "val" : 2 },
-				"extra" : { "val" : 25 }
+				"extra" : { "val" : 50 },
+				"noWallPenalty" :
+				{ 
+					"type" : "NO_WALL_PENALTY",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",			
+					"limiters": [ "SHOOTER_ONLY" ]
+				}
 			}
 		},
 		"expert" : {
 			"effects" : {
 				"main" : { "val" : 3 },
-				"extra" : { "val" : 50 }
+				"extra" : { "val" : 50 },
+				"noDistancePenalty" :
+				{ 
+					"type" : "NO_DISTANCE_PENALTY",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",			
+					"limiters": [ "SHOOTER_ONLY" ]
+				}
 			}
 		}
 	},
