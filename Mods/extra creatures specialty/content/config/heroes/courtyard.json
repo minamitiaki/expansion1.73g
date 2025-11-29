@@ -40,14 +40,25 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 16,
+					"val" : 8,
 					"limiters": [
 						{
 							"parameters": ["dodo", true],
 							"type": "CREATURE_TYPE_LIMITER"
 						}
 					],
-				},		
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 20,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["dodo", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},						
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -63,7 +74,7 @@
         "texts": {
             "specialty": {
                 "name": "陆行鸟",
-                "description": "每5级提高陆行鸟及其升级形态20%的攻击力和防御力。速度+1。伤害+16。战斗巨鸟的抗魔光环加倍，华丽巨鸟的士气+2。"
+                "description": "每5级提高陆行鸟及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+20。战斗巨鸟的抗魔光环加倍，华丽巨鸟的士气+2。"
             }
         }
 	},
@@ -244,7 +255,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 24,
+					"val" : 16,
 					"limiters": [
 						{
 							"parameters": ["mandrake", true],
@@ -267,7 +278,7 @@
         "texts": {
             "specialty": {
                 "name": "曼陀罗",
-                "description": "每6级提高曼陀罗及其升级形态20%的攻击力和防御力。速度+1。伤害+24。召唤的藤护卫速度+1并获得先手反击技能。"
+                "description": "每6级提高曼陀罗及其升级形态20%的攻击力和防御力。速度+1。伤害+16。召唤的藤护卫速度+1并获得先手反击技能。"
             }
         }
 	},
@@ -312,14 +323,25 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 2,
+					"val" : 1,
 					"limiters": [
 						{
 							"parameters": ["homunculus", true],
 							"type": "CREATURE_TYPE_LIMITER"
 						}
 					],
-				},						
+				},	
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"parameters": ["homunculus", true],
+							"type": "CREATURE_TYPE_LIMITER"
+						}
+					],			
+				},										
 				"speed": {
 					"type": "STACKS_SPEED",
 					"val": 1,
@@ -335,7 +357,7 @@
         "texts": {
             "specialty": {
                 "name": "侏儒怪",
-                "description": "每2级提高侏儒怪及其升级形态20%的攻击力和防御力。速度+1。伤害+2。"
+                "description": "每2级提高侏儒怪及其升级形态20%的攻击力和防御力。速度+1。伤害+1。生命+10。"
             }
         }
 	},

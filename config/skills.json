@@ -305,13 +305,13 @@
 		"basic" : {
 			"effects" : {
 				"main" : { "val" : 1 },
-				"extra" : { "val" : 25 }
+				"extra" : { "val" : 20 }
 			}
 		},
 		"advanced" : {
 			"effects" : {
 				"main" : { "val" : 2 },
-				"extra" : { "val" : 50 },
+				"extra" : { "val" : 30 },
 				"noWallPenalty" :
 				{ 
 					"type" : "NO_WALL_PENALTY",
@@ -324,7 +324,7 @@
 		"expert" : {
 			"effects" : {
 				"main" : { "val" : 3 },
-				"extra" : { "val" : 50 },
+				"extra" : { "val" : 40 },
 				"noDistancePenalty" :
 				{ 
 					"type" : "NO_DISTANCE_PENALTY",

@@ -10,19 +10,19 @@
 				{ 
 							"type" : "STACK_HEALTH",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]} ]
+							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve","rampart","fairy"]} ]
 				},
 				"fifthEffect" :
 				{ 
 							"type" : "CREATURE_DAMAGE",
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]} ]
+							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve","rampart"]} ]
 				}
 			}
 		},
 		"basic" : {
-			"description": "{初级幸运术}\n\n初级幸运术可以使英雄的幸运值+1。\n\n同时赋予禁林生物额外的生命值10%。",
+			"description": "{初级幸运术}\n\n初级幸运术可以使英雄的幸运值+1。\n\n同时赋予禁林、壁垒、花仙生物额外的生命值10%。",
 			"effects" : {
 				"main" : { "val" : 1 },
 				"fourthEffect" : { "val" : 10 },
@@ -30,7 +30,7 @@
 			}
 		},
 		"advanced" : {
-			"description": "{中级幸运术}\n\n中级幸运术可以使英雄的幸运值+2。\n\n同时赋予禁林生物额外的生命值20%。",
+			"description": "{中级幸运术}\n\n中级幸运术可以使英雄的幸运值+2。\n\n同时赋予禁林、壁垒、花仙生物额外的生命值20%。",
 			"effects" : {
 				"main" : { "val" : 2 },
 				"fourthEffect" : { "val" : 20 },
@@ -38,7 +38,7 @@
 			}
 		},
 		"expert" : {
-			"description": "{高级幸运术}\n\n高级幸运术可以使英雄的幸运值+3。\n\n同时赋予禁林生物额外的生命值20%，伤害10%。",
+			"description": "{高级幸运术}\n\n高级幸运术可以使英雄的幸运值+3。\n\n同时赋予禁林、壁垒、花仙生物额外的生命值20%，伤害10%。",
 			"effects" : {
 				"main" : { "val" : 3 },
 				"fourthEffect" : { "val" : 20 },
