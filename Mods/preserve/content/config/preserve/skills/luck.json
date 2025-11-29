@@ -10,24 +10,26 @@
 				{ 
 							"type" : "STACK_HEALTH",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["fairy"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["rampart"]}]
-							}			
+							"limiters": 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["preserve"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["fairy"]},		
+								{"type": "FACTION_LIMITER", "parameters" : ["rampart"]}]
+							]			
 				},
 				"fifthEffect" :
 				{ 
 							"type" : "CREATURE_DAMAGE",
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["fairy"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["rampart"]}]
-							}	
+							"limiters": 								 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["preserve"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["fairy"]},	
+								{"type": "FACTION_LIMITER", "parameters" : ["rampart"]}]
+							]			
 				}
 			}
 		},
