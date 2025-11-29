@@ -200,6 +200,7 @@
 		"sounds": {
 			"cast": "SPONTCOMB"
 		},
+		"level" : 2,
 		"levels" : {
 			"base":{
 				"range" : "0,1",
@@ -228,6 +229,7 @@
 		"sounds": {
 			"cast": "FIREBLST"
 		},
+		"level" : 3,		
 		"levels" : {
 			"base":{
 				"range" : "0-2",

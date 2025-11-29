@@ -201,22 +201,30 @@
 				"main" : {
 					"type" : "MAX_LEARNABLE_SPELL_LEVEL",
 					"valueType" : "BASE_NUMBER"
+				},
+				"extra" : {
+					"subtype" : "primarySkill.knowledge",		
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "ADDITIVE_VALUE"	
 				}
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 1 }
+				"main" : { "val" : 1 },
+				"extra" : { "val" : 1 }
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 2 }
+				"main" : { "val" : 2 },
+				"extra" : { "val" : 2 }
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 3 }
+				"main" : { "val" : 3 },
+				"extra" : { "val" : 3 }
 			}
 		}
 	},
