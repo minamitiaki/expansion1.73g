@@ -10,19 +10,19 @@
 			}
 		},
 		"basic" : {
-			"description": "{³õ¼¶Ñ°Â·Êõ}\n\n²»Á¼µØĞÎÓ°Ïì¼õÉÙ50%¡£",		
+			"description": "{åˆçº§å¯»è·¯æœ¯}\n\nä¸è‰¯åœ°å½¢å½±å“å‡å°‘50%ã€‚",		
 			"effects" : {
 				"main" : { "val" : 50 }
 			}
 		},
 		"advanced" : {
-			"description": "{ÖĞ¼¶Ñ°Â·Êõ}\n\n²»Á¼µØĞÎÓ°Ïì¼õÉÙ75%¡£",				
+			"description": "{ä¸­çº§å¯»è·¯æœ¯}\n\nä¸è‰¯åœ°å½¢å½±å“å‡å°‘75%ã€‚",				
 			"effects" : {
 				"main" : { "val" : 75 }
 			}
 		},
 		"expert" : {
-			"description": "{¸ß¼¶Ñ°Â·Êõ}\n\n²»Á¼µØĞÎÓ°Ïì¼õÉÙ100%¡£",				
+			"description": "{é«˜çº§å¯»è·¯æœ¯}\n\nä¸è‰¯åœ°å½¢å½±å“å‡å°‘100%ã€‚",				
 			"effects" : {
 				"main" : { "val" : 100 }
 			}
@@ -40,19 +40,19 @@
 			}
 		},
 		"basic" : {
-			"description": "{³õ¼¶¼ıÊõ}\n\n³õ¼¶¼ıÊõÌá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË20%¡£",			
+			"description": "{åˆçº§ç®­æœ¯}\n\nåˆçº§ç®­æœ¯æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤20%ã€‚",			
 			"effects" : {
 				"main" : { "val" : 20 }
 			}
 		},
 		"advanced" : {
-			"description": "{ÖĞ¼¶¼ıÊõ}\n\nÖĞ¼¶¼ıÊõÌá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË50%¡£",		
+			"description": "{ä¸­çº§ç®­æœ¯}\n\nä¸­çº§ç®­æœ¯æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤50%ã€‚",		
 			"effects" : {
 				"main" : { "val" : 50 }
 			}
 		},
 		"expert" : {
-			"description": "{¸ß¼¶¼ıÊõ}\n\n¸ß¼¶¼ıÊõÌá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË100%¡£",		
+			"description": "{é«˜çº§ç®­æœ¯}\n\né«˜çº§ç®­æœ¯æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤100%ã€‚",		
 			"effects" : {
 				"main" : { "val" : 100 }
 			}
@@ -181,51 +181,21 @@
 					"type" : "MORALE",
 					"valueType" : "BASE_NUMBER"
 				},
-				"fourthEffect" :
-				{ 
-							"type" : "STACK_HEALTH",
-							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["cathedral"]}]
-							}
-				},
-				"fifthEffect" :
-				{ 
-							"type" : "CREATURE_DAMAGE",
-							"subtype" : "creatureDamageBoth",
-							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["castle"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["cathedral"]}]
-							}
-				}
 			}
 		},
 		"basic" : {
-			"description": "{³õ¼¶Áìµ¼Êõ}\n\n³õ¼¶Áìµ¼Êõ¿ÉÒÔÊ¹Ó¢ĞÛµÄÊ¿ÆøÖµ+1¡£\n\nÍ¬Ê±¸³Óè³Ç±¤¡¢½ÌÌÃÉúÎï¶îÍâµÄÉúÃüÖµ10%¡£",
 			"effects" : {
 				"main" : { "val" : 1 },
-				"fourthEffect" : { "val" : 10 },
-				"fifthEffect" : { "val" : 0 },
 			}
 		},
 		"advanced" : {
-			"description": "{ÖĞ¼¶Áìµ¼Êõ}\n\nÖĞ¼¶Áìµ¼Êõ¿ÉÒÔÊ¹Ó¢ĞÛµÄÊ¿ÆøÖµ+2¡£\n\nÍ¬Ê±¸³Óè³Ç±¤¡¢½ÌÌÃÉúÎï¶îÍâµÄÉúÃüÖµ20%¡£",
 			"effects" : {
 				"main" : { "val" : 2 },
-				"fourthEffect" : { "val" : 20 },
-				"fifthEffect" : { "val" : 0 },
 			}
 		},
 		"expert" : {
-			"description": "{¸ß¼¶Áìµ¼Êõ}\n\n¸ß¼¶Áìµ¼Êõ¿ÉÒÔÊ¹Ó¢ĞÛµÄÊ¿ÆøÖµ+3¡£\n\nÍ¬Ê±¸³Óè³Ç±¤¡¢½ÌÌÃÉúÎï¶îÍâµÄÉúÃüÖµ20%£¬ÉËº¦10%¡£",
 			"effects" : {
 				"main" : { "val" : 3 },
-				"fourthEffect" : { "val" : 20 },
-				"fifthEffect" : { "val" : 10 },
 			}
 		}
 	},
@@ -339,17 +309,17 @@
 			}
 		},
 		"basic" : {
-			"description": "{³õ¼¶µ¯µÀÊõ}\n\n³õ¼¶µ¯µÀÊõÔÊĞíÍæ¼Ò¿ØÖÆ¹¥³Ç³µ¡£\n\nÍ¬Ê±Ìá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË20%¡£",		
+			"description": "{åˆçº§å¼¹é“æœ¯}\n\nåˆçº§å¼¹é“æœ¯å…è®¸ç©å®¶æ§åˆ¶æ”»åŸè½¦ã€‚\n\nåŒæ—¶æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤10%ã€‚",		
 			"effects" : {
 				"main" : { "val" : 1 },
-				"extra" : { "val" : 20 }
+				"extra" : { "val" : 10 }
 			}
 		},
 		"advanced" : {
-			"description": "{ÖĞ¼¶µ¯µÀÊõ}\n\nÖĞ¼¶µ¯µÀÊõÔÊĞíÍæ¼Ò¿ØÖÆ¹¥³Ç³µ¡£¹¥³Ç´ÎÊı+1\n\nÍ¬Ê±Ìá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË30%£¬ÇÒÎŞÊÓ³ÇÇ½¡£",				
+			"description": "{ä¸­çº§å¼¹é“æœ¯}\n\nä¸­çº§å¼¹é“æœ¯å…è®¸ç©å®¶æ§åˆ¶æ”»åŸè½¦ã€‚æ”»åŸæ¬¡æ•°+1\n\nåŒæ—¶æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤20%ï¼Œä¸”æ— è§†åŸå¢™ã€‚",				
 			"effects" : {
 				"main" : { "val" : 2 },
-				"extra" : { "val" : 30 },
+				"extra" : { "val" : 20 },
 				"noWallPenalty" :
 				{ 
 					"type" : "NO_WALL_PENALTY",
@@ -360,10 +330,10 @@
 			}
 		},
 		"expert" : {
-			"description": "{¸ß¼¶µ¯µÀÊõ}\n\n¸ß¼¶µ¯µÀÊõÔÊĞíÍæ¼Ò¿ØÖÆ¹¥³Ç³µ¡£¹¥³Ç´ÎÊı+2\n\nÍ¬Ê±Ìá¸ßËùÓĞµ¥Î»Ô¶³ÌÉ±ÉË40%£¬ÇÒÎŞÊÓ³ÇÇ½Óë¾àÀë¡£",				
+			"description": "{é«˜çº§å¼¹é“æœ¯}\n\né«˜çº§å¼¹é“æœ¯å…è®¸ç©å®¶æ§åˆ¶æ”»åŸè½¦ã€‚æ”»åŸæ¬¡æ•°+2\n\nåŒæ—¶æé«˜æ‰€æœ‰å•ä½è¿œç¨‹æ€ä¼¤30%ï¼Œä¸”æ— è§†åŸå¢™ä¸è·ç¦»ã€‚",				
 			"effects" : {
 				"main" : { "val" : 3 },
-				"extra" : { "val" : 40 },
+				"extra" : { "val" : 30 },
 				"noDistancePenalty" :
 				{ 
 					"type" : "NO_DISTANCE_PENALTY",
@@ -478,53 +448,24 @@
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"fourthEffect" :
-				{ 
-							"type" : "STACK_HEALTH",
-							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["inferno"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["factory"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["bastille"]}]
-							}		
-				},
-				"fifthEffect" :
-				{ 
-							"type" : "CREATURE_DAMAGE",
-							"subtype" : "creatureDamageBoth",
-							"valueType" : "PERCENT_TO_BASE",
-							"limiters": {
-								"anyOf": 
-								[ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["inferno"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["factory"]},
-								{"type": "CREATURE_FACTION_LIMITER","parameters" : ["bastille"]}]
-							}	
-				}
 			}
 		},
 		"basic" : {
-			"description": "{³õ¼¶»ğÏµÄ§·¨}\n\n³õ¼¶»ğÏµÄ§·¨¿ÉÒÔÌá¸ß»ğÏµÄ§·¨Ğ§¹û¡£\n\nÍ¬Ê±¸³ÓèµØÓü¡¢±¤Àİ¡¢¹¤³§¶îÍâµÄÉúÃüÖµ10%¡£",	
+			"description": "{åˆçº§ç«ç³»é­”æ³•}\n\nåˆçº§ç«ç³»é­”æ³•å¯ä»¥æé«˜ç«ç³»é­”æ³•æ•ˆæœã€‚\n\nåŒæ—¶èµ‹äºˆåœ°ç‹±ã€å ¡å’ã€å·¥å‚é¢å¤–çš„ç”Ÿå‘½å€¼10%ã€‚",	
 			"effects" : {
 				"main" : { "val" : 1 },
-				"fourthEffect" : { "val" : 10 },
-				"fifthEffect" : { "val" : 0 },	
 			}
 		},
 		"advanced" : {
-			"description": "{ÖĞ¼¶»ğÏµÄ§·¨}\n\nÖĞ¼¶»ğÏµÄ§·¨¿ÉÒÔÌá¸ß»ğÏµÄ§·¨Ğ§¹û¡£\n\nÍ¬Ê±¸³ÓèµØÓü¡¢±¤Àİ¡¢¹¤³§¶îÍâµÄÉúÃüÖµ20%¡£",			
+			"description": "{ä¸­çº§ç«ç³»é­”æ³•}\n\nä¸­çº§ç«ç³»é­”æ³•å¯ä»¥æé«˜ç«ç³»é­”æ³•æ•ˆæœã€‚\n\nåŒæ—¶èµ‹äºˆåœ°ç‹±ã€å ¡å’ã€å·¥å‚é¢å¤–çš„ç”Ÿå‘½å€¼20%ã€‚",			
 			"effects" : {
 				"main" : { "val" : 2 },
-				"fourthEffect" : { "val" : 20 },
-				"fifthEffect" : { "val" : 0 },	
 			}
 		},
 		"expert" : {
-			"description": "{¸ß¼¶»ğÏµÄ§·¨}\n\n¸ß¼¶»ğÏµÄ§·¨¿ÉÒÔÌá¸ß»ğÏµÄ§·¨Ğ§¹û¡£\n\nÍ¬Ê±¸³ÓèµØÓü¡¢±¤Àİ¡¢¹¤³§¶îÍâµÄÉúÃüÖµ20%¡£ÉËº¦10%¡£",		
+			"description": "{é«˜çº§ç«ç³»é­”æ³•}\n\né«˜çº§ç«ç³»é­”æ³•å¯ä»¥æé«˜ç«ç³»é­”æ³•æ•ˆæœã€‚\n\nåŒæ—¶èµ‹äºˆåœ°ç‹±ã€å ¡å’ã€å·¥å‚é¢å¤–çš„ç”Ÿå‘½å€¼20%ã€‚ä¼¤å®³10%ã€‚",		
 			"effects" : {
 				"main" : { "val" : 3 },
-				"fourthEffect" : { "val" : 20 },
-				"fifthEffect" : { "val" : 10 },	
 			}
 		}
 	},

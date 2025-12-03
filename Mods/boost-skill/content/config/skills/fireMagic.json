@@ -1,0 +1,63 @@
+{
+  "core:fireMagic" : {
+		"obligatoryMinor" : true,
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "spellSchool.fire",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"fourthEffect" :
+				{ 
+							"type" : "STACK_HEALTH",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["inferno"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["bastille"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.Factory"]}]
+							]			
+				},
+				"fifthEffect" :
+				{ 
+							"type" : "CREATURE_DAMAGE",
+							"subtype" : "creatureDamageBoth",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 								 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["inferno"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["bastille"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.Factory"]}]
+							]			
+				}
+			}
+		},
+		"basic" : {
+			"description": "{初级火系魔法}\n\n初级火系魔法可以提高火系魔法效果。\n\n同时赋予地狱、堡垒、工厂额外的生命值10%。",	
+			"effects" : {
+				"main" : { "val" : 1 },
+				"fourthEffect" : { "val" : 10 },
+				"fifthEffect" : { "val" : 0 },	
+			}
+		},
+		"advanced" : {
+			"description": "{中级火系魔法}\n\n中级火系魔法可以提高火系魔法效果。\n\n同时赋予地狱、堡垒、工厂额外的生命值20%。",			
+			"effects" : {
+				"main" : { "val" : 2 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 0 },		
+			}
+		},
+		"expert" : {
+			"description": "{高级火系魔法}\n\n高级火系魔法可以提高火系魔法效果。\n\n同时赋予地狱、堡垒、工厂额外的生命值20%。伤害10%。",		
+			"effects" : {
+				"main" : { "val" : 3 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 10 },	
+			}
+		}
+	}
+}
