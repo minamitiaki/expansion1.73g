@@ -1,0 +1,63 @@
+{
+  "core:waterMagic" : {
+		"obligatoryMinor" : true,
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "spellSchool.water",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"fourthEffect" :
+				{ 
+							"type" : "STACK_HEALTH",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["haven"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["tartarus"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.cave"]}]
+							]			
+				},
+				"fifthEffect" :
+				{ 
+							"type" : "CREATURE_DAMAGE",
+							"subtype" : "creatureDamageBoth",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 								 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["haven"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["tartarus"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.cave"]}]
+							]			
+				}
+			}
+		},
+		"basic" : {
+			"description": "{初级水系魔法}\n\n初级水系魔法可以提高水系魔法效果。\n\n同时赋予港口、峡湾、冰狱额外的生命值10%。",	
+			"effects" : {
+				"main" : { "val" : 1 },
+				"fourthEffect" : { "val" : 10 },
+				"fifthEffect" : { "val" : 0 },	
+			}
+		},
+		"advanced" : {
+			"description": "{中级水系魔法}\n\n中级水系魔法可以提高水系魔法效果。\n\n同时赋予港口、峡湾、冰狱额外的生命值20%。",			
+			"effects" : {
+				"main" : { "val" : 2 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 0 },		
+			}
+		},
+		"expert" : {
+			"description": "{高级水系魔法}\n\n高级水系魔法可以提高水系魔法效果。\n\n同时赋予港口、峡湾、冰狱额外的生命值20%。伤害10%。",		
+			"effects" : {
+				"main" : { "val" : 3 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 10 },	
+			}
+		}
+	}
+}

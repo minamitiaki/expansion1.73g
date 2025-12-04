@@ -7,12 +7,13 @@
 	"version" : "1.8",
 	"modType" : "Skill",	
 
-	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory"], 	
+	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus"], 	
 	
 	"skills" : [
 		"config/skills/leadership",	
 		"config/skills/luck",
-		"config/skills/fireMagic"
+		"config/skills/fireMagic",
+		"config/skills/waterMagic"
 	]
 	
 }
