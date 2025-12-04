@@ -1,0 +1,97 @@
+{
+  "core:scouting": {
+    "base": {
+      "effects": {
+        "advance": {
+          "type": "MOVEMENT"
+        },
+        "fourthEffect" :
+				{ 
+							"type" : "STACK_HEALTH",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["tower"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["Courtyard"]}]
+							]
+							
+				},
+				"fifthEffect" :
+				{ 
+							"type" : "CREATURE_DAMAGE",
+							"subtype" : "creatureDamageBoth",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": [	
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["tower"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["Courtyard"]}]
+							]
+							
+				}
+      }
+    },
+
+    "basic": {
+      "description": "{初级侦察术}\n\n增加英雄1格的视野范围。\n\n同时赋予塔楼、贵族生物额外的生命值10%",
+      "effects": {
+        "advance": {
+          "val": 100,
+          "fourthEffect" : { "val" : 10 },
+          "fifthEffect" : { "val" : 0 }
+        }
+      }
+    },
+
+    "advanced": {
+      "description": "{中级侦察术}\n\n增加英雄3格的视野范围。\n\n同时赋予塔楼、贵族生物额外的生命值20%。",
+      "effects": {
+        "main": {
+          "val": 3
+        },
+
+        "advance": {
+          "val": 200,
+          "fourthEffect" : { "val" : 20 },
+          "fifthEffect" : { "val" : 0 }
+        }
+      }
+    },
+
+    "expert": {
+      "description": "{高级侦察术}\n\n增加英雄5格的视野范围。\n\n同时赋予塔楼、贵族生物额外的生命值20%，伤害10%。",
+      "effects": {
+        "main": {
+          "val": 5
+        },
+
+        "advance": {
+          "val": 300,
+          "fourthEffect" : { "val" : 20 },
+          "fifthEffect" : { "val" : 10 } 
+        }
+      }
+    }
+  },
+  "core:necromancy" : {
+		"special": true,
+		"basic" : {
+			"description" : "{初级招魂术}\n\n初级招魂术可使英雄将10%在战斗中死亡的生物变成骷髅兵。",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description" : "{中级招魂术}\n\n中级招魂术可使英雄将15%在战斗中死亡的生物变成骷髅兵。",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		},
+		"expert" : {
+			"description" : "{高级招魂术}\n\n高级招魂术可使英雄将20%在战斗中死亡的生物变成骷髅兵。",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		}
+	}
+}

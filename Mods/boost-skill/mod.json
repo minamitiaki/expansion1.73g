@@ -7,7 +7,7 @@
 	"version" : "1.8",
 	"modType" : "Skill",	
 
-	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus"], 	
+	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus", "Courtyard"], 	
 	
 	"skills" : [
 		"config/skills/leadership",	
