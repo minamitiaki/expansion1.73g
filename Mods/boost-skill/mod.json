@@ -16,7 +16,8 @@
 		"config/skills/waterMagic",
 		"config/skills/scouting",
 		"config/skills/interference",
-		"config/skills/intimidation"
+		"config/skills/intimidation",
+		"config/skills/hexes"
 	]
 	
 }
