@@ -254,11 +254,11 @@
 	"skills" : [
 		"config/skills/hexes",
 		"config/skills/eagleEye",
-		//"config/skills/scouting",
+		
 		"config/skills/sorcery",
 		"config/skills/estates",
+		
 		"config/skills/mysticism",
-		//"config/skills/magicFader",
 		"config/skills/intimidation"
 	]
 }

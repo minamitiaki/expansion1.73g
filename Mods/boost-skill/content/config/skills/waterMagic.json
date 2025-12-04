@@ -17,7 +17,7 @@
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["haven"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["tartarus"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["hota.cave"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.cove"]}]
 							]			
 				},
 				"fifthEffect" :
@@ -30,7 +30,7 @@
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["haven"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["tartarus"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["hota.cave"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["hota.cove"]}]
 							]			
 				}
 			}
