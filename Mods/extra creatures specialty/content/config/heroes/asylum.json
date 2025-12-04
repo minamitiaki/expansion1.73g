@@ -41,7 +41,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 24,
+					"val" : 16,
 					"limiters": [
 						{
 							"parameters": ["asnightmare", true],
@@ -65,7 +65,7 @@
         "texts": {
             "specialty": {
                 "name": "梦魇兽",
-                "description": "每6级提高梦魇兽及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
+                "description": "每6级提高梦魇兽及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},
@@ -111,7 +111,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 16,
+					"val" : 12,
 					"limiters": [
 						{
 							"parameters": ["spiritcrus", true],
@@ -135,7 +135,7 @@
         "texts": {
             "specialty": {
                 "name": "灵魂剑士",
-                "description": "每5级提高灵魂剑士及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
+                "description": "每5级提高灵魂剑士及其升级形态20%的攻击力和防御力。速度+1。伤害+12。"
             }
         }
 	},
