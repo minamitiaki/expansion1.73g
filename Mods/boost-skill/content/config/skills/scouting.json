@@ -13,7 +13,7 @@
 							[		
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["tower"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["Courtyard"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["courtyard"]}]
 							]
 							
 				},
@@ -25,7 +25,7 @@
 							"limiters": [	
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["tower"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["Courtyard"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["courtyard"]}]
 							]
 							
 				}
