@@ -15,13 +15,38 @@
 					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [ "OPPOSITE_SIDE" ],
+				},
+				"fourthEffect" :
+				{ 
+							"type" : "STACK_HEALTH",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["conflux"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["stronghold"]}]
+							]			
+				},
+				"fifthEffect" :
+				{ 
+							"type" : "CREATURE_DAMAGE",
+							"subtype" : "creatureDamageBoth",
+							"valueType" : "PERCENT_TO_BASE",
+							"limiters": 								 
+							[		
+								["anyOf",														 
+								{"type": "FACTION_LIMITER", "parameters" : ["conflux"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["stronghold"]}]
+							]			
 				}
 			}
 		},
 		"basic" : {
-			"description" : "{初级干扰术}\n\n掌握初级干扰术可以在战斗中降低敌方英雄10%的力量。",
+			"description" : "{初级干扰术}\n\n掌握初级干扰术可以在战斗中降低敌方英雄10%的力量。\n\n同时赋予据点、元素额外的生命值10%。",
 			"effects" : {
-				"main" : { "val" : -10 }
+				"main" : { "val" : -10 },
+				"fourthEffect" : { "val" : 10 },
+				"fifthEffect" : { "val" : 0 }
 			},
 			"images" : {
 				"small" : "hota/skills/interference/icons/small/basic",
@@ -30,9 +55,11 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{中级干扰术}\n\n掌握中级干扰术可以在战斗中降低敌方英雄20%的力量。",
+			"description" : "{中级干扰术}\n\n掌握中级干扰术可以在战斗中降低敌方英雄20%的力量。\n\n同时赋予据点、元素额外的生命值20%。",
 			"effects" : {
-				"main" : { "val" : -20 }
+				"main" : { "val" : -20 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 0 }	
 			},
 			"images" : {
 				"small" : "hota/skills/interference/icons/small/advanced",
@@ -41,9 +68,11 @@
 			}
 		},
 		"expert" : {
-			"description" : "{高级干扰术}\n\n掌握高级干扰术可以在战斗中降低敌方英雄30%的力量。",
+			"description" : "{高级干扰术}\n\n掌握高级干扰术可以在战斗中降低敌方英雄30%的力量。\n\n同时赋予据点、元素额外的生命值20%，伤害10%。",
 			"effects" : {
-				"main" : { "val" : -30 }
+				"main" : { "val" : -30 },
+				"fourthEffect" : { "val" : 20 },
+				"fifthEffect" : { "val" : 10 }	
 			},
 			"images" : {
 				"small" : "hota/skills/interference/icons/small/expert",

@@ -37,9 +37,10 @@
       "effects": {
         "advance": {
           "val": 100,
-          "fourthEffect" : { "val" : 10 },
-          "fifthEffect" : { "val" : 0 }
-        }
+        },
+
+        "fourthEffect" : { "val" : 10 },
+        "fifthEffect" : { "val" : 0 }
       }
     },
 
@@ -52,9 +53,10 @@
 
         "advance": {
           "val": 200,
-          "fourthEffect" : { "val" : 20 },
-          "fifthEffect" : { "val" : 0 }
-        }
+        },
+
+        "fourthEffect" : { "val" : 20 },
+        "fifthEffect" : { "val" : 0 }
       }
     },
 
@@ -67,9 +69,10 @@
 
         "advance": {
           "val": 300,
-          "fourthEffect" : { "val" : 20 },
-          "fifthEffect" : { "val" : 10 } 
-        }
+        },
+        
+        "fourthEffect" : { "val" : 20 },
+        "fifthEffect" : { "val" : 10 } 
       }
     }
   },
