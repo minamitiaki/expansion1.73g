@@ -12,6 +12,7 @@
 							[		
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["necropolis"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["asylum"]},	
 								{"type": "FACTION_LIMITER", "parameters" : ["dungeon"]}]
 							]			
 				},
@@ -24,27 +25,28 @@
 							[		
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["necropolis"]},
+								{"type": "FACTION_LIMITER", "parameters" : ["asylum"]},	
 								{"type": "FACTION_LIMITER", "parameters" : ["dungeon"]}]
 							]			
 				}
 			}
 		},
 		"basic" : {
-			"description" : "{初级恐吓术}\n\n降低敌方1点士气。\n\n同时赋予墓园、地下城额外的生命值10%。",
+			"description" : "{初级恐吓术}\n\n降低敌方1点士气。\n\n同时赋予墓园、梦境、地下城额外的生命值10%。",
 			"effects" : {
 				"fourthEffect" : { "val" : 10 },
 				"fifthEffect" : { "val" : 0 }
 			}
 		},
 		"advanced" : {
-			"description" : "{中级恐吓术}\n\n降低敌方2点士气。\n\n同时赋予墓园、地下城额外的生命值20%。",
+			"description" : "{中级恐吓术}\n\n降低敌方2点士气。\n\n同时赋予墓园、梦境、地下城额外的生命值20%。",
 			"effects" : {
 				"fourthEffect" : { "val" : 20 },
 				"fifthEffect" : { "val" : 0 }
 			}
 		},
 		"expert" : {
-			"description" : "{高级恐吓术}\n\n降低敌方3点士气。\n\n同时赋予墓园、地下城额外的生命值20%, 伤害10%",
+			"description" : "{高级恐吓术}\n\n降低敌方3点士气。\n\n同时赋予墓园、梦境、地下城额外的生命值20%, 伤害10%",
 			"effects" : {
 				"fourthEffect" : { "val" : 20 },
 				"fifthEffect" : { "val" : 10 }
