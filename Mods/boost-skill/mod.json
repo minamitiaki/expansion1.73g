@@ -13,7 +13,8 @@
 		"config/skills/leadership",	
 		"config/skills/luck",
 		"config/skills/fireMagic",
-		"config/skills/waterMagic"
+		"config/skills/waterMagic",
+		"config/skills/scouting"
 	]
 	
 }
