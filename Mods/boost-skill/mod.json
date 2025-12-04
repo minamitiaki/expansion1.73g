@@ -7,14 +7,15 @@
 	"version" : "1.8",
 	"modType" : "Skill",	
 
-	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus", "Courtyard"], 	
+	"depends" : ["cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus", "Courtyard", "hota"], 	
 	
 	"skills" : [
 		"config/skills/leadership",	
 		"config/skills/luck",
 		"config/skills/fireMagic",
 		"config/skills/waterMagic",
-		"config/skills/scouting"
+		"config/skills/scouting",
+		"config/skills/interference"
 	]
 	
 }
