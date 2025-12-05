@@ -15,7 +15,7 @@
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["preserve"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["rampart"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["Fairy"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["fairy"]}]
 							]			
 				},
 				"fifthEffect" :
@@ -28,7 +28,7 @@
 								["anyOf",														 
 								{"type": "FACTION_LIMITER", "parameters" : ["preserve"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["rampart"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["Fairy"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["fairy"]}]
 							]			
 				}
 			}

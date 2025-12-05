@@ -5,9 +5,9 @@
 	"author" : "minamitiaki",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.8",
-	"modType" : "Skill",	
+	"modType" : "Skills",	
 
-	"depends" : ["asylum", "cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus", "Courtyard", "New Pavilion.New Pavillion", "Deathvalley", "hota.interference", "tidesOfWar"], 	
+	"depends" : ["asylum", "cathedral", "preserve", "Fairy", "bastille", "hota.Factory", "haven", "hota.cove", "tartarus", "Courtyard", "New Pavilion.New Pavillion", "Deathvalley", "hota.interference"], 	
 	
 	"skills" : [
 		"config/skills/leadership",	
