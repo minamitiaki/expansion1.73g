@@ -40,21 +40,21 @@
 			}
 		},
 		"basic" : {
-			"description": "{初级箭术}\n\n初级箭术提高所有单位远程杀伤20%。",			
+			"description": "{初级箭术}\n\n初级箭术提高所有单位远程杀伤10%。",			
 			"effects" : {
-				"main" : { "val" : 20 }
+				"main" : { "val" : 10 }
 			}
 		},
 		"advanced" : {
-			"description": "{中级箭术}\n\n中级箭术提高所有单位远程杀伤50%。",		
+			"description": "{中级箭术}\n\n中级箭术提高所有单位远程杀伤25%。",		
 			"effects" : {
-				"main" : { "val" : 50 }
+				"main" : { "val" : 25 }
 			}
 		},
 		"expert" : {
-			"description": "{高级箭术}\n\n高级箭术提高所有单位远程杀伤100%。",		
+			"description": "{高级箭术}\n\n高级箭术提高所有单位远程杀伤50%。",		
 			"effects" : {
-				"main" : { "val" : 100 }
+				"main" : { "val" : 50 }
 			}
 		}
 	},
@@ -209,7 +209,7 @@
 					"valueType" : "BASE_NUMBER"
 				},
 				"extra" : {
-					"subtype" : "primarySkill.knowledge",		
+					"subtype" : "primarySkill.spellpower",		
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "ADDITIVE_VALUE"	
 				}
