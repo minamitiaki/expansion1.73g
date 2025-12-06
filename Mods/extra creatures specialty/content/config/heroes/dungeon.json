@@ -347,19 +347,28 @@
 						"parameters" : [ "DRAGON_NATURE" ],
 						"type" : "HAS_ANOTHER_BONUS_LIMITER"
 					}
-				],
-				"type" : "PRIMARY_SKILL",
-				"val" : 10
+				]				
 			},
 			"bonuses" : {
-				"attack" : { "subtype" : "primarySkill.attack" },
-				"defence" : { "subtype" : "primarySkill.defence" }
+				"attack" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.attack", "val" : 10 },
+				"defence" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.defence", "val" : 10 },
+				"damage" :
+				{ 
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 20
+				},
+				"speed": {
+					"type": "STACKS_SPEED",
+					"val": 1
+				}
 			}
 		},
         "texts": {
             "specialty": {
                 "name": "龙",
-                "description": "使龙攻击力+10，防御力+10。"
+                "description": "使龙攻击力+10，防御力+10，速度+1，伤害提高20%"
             }
         }
 	},
@@ -371,19 +380,29 @@
 						"parameters" : [ "DRAGON_NATURE" ],
 						"type" : "HAS_ANOTHER_BONUS_LIMITER"
 					}
-				],
-				"type" : "PRIMARY_SKILL",
-				"val" : 10
+				]				
 			},
 			"bonuses" : {
-				"attack" : { "subtype" : "primarySkill.attack" },
-				"defence" : { "subtype" : "primarySkill.defence" }
+				"attack" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.attack", "val" : 10 },
+				"defence" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.defence", "val" : 10 },
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val" : 30,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"damage" :
+				{ 
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 10
+				},
 			}
 		},
         "texts": {
             "specialty": {
                 "name": "龙",
-                "description": "使龙攻击力+10，防御力+10。"
+                "description": "使龙攻击力+10，防御力+10，伤害提高10%，生命提高30%"
             }
         }
 	},

@@ -11,7 +11,7 @@
       "biography" : "达萨洛斯是龙女王摩莉尔的右爪。一些人怀疑摩莉尔的死是达萨洛斯的夺权阴谋。尽管如此，龙族还是听命于他，他俨然已是它们的新国王。",
       "specialty" :
       {
-        "description" : "使所有龙获得弧形龙息能力。",
+        "description" : "使所有龙攻击+10，防御+10，速度+1，获得弧形龙息能力。",
         "tooltip" : "Creature bonus: Dragons",
         "name" : "弧形龙息"
       }
@@ -61,7 +61,13 @@
 			"wideBreath" : {
 				"type" : "WIDE_BREATH",
 				"limiters" : ["DRAGON_NATURE"],
-			}
+			},
+      "attack" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.attack", "val" : 10 },
+      "defence" : { "type" : "PRIMARY_SKILL", "subtype" : "primarySkill.defence", "val" : 10 },
+      "speed": {
+        "type": "STACKS_SPEED",
+        "val": 1
+      }
 		}
 	} 
   }
