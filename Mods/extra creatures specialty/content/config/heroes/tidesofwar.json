@@ -825,7 +825,7 @@
 				},	
 				"health": {
 					"type" : "STACK_HEALTH",
-					"val" : 30,
+					"val" : 20,
 					"valueType" : "BASE_NUMBER",
 					"limiters": [
 						{
@@ -850,7 +850,7 @@
         "texts": {
             "specialty": {
                 "name": "火精灵",
-                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+30。"
+                "description": "每6级提高火精灵及其升级形态20%的攻击力和防御力。速度+1。伤害+8。生命+20。"
             }
         }
 	}
