@@ -12,7 +12,8 @@
 							"valueType" : "PERCENT_TO_BASE",
 							"limiters": 
 							[		
-								["anyOf",														 
+								["anyOf",			
+								{"type": "FACTION_LIMITER", "parameters" : ["neutral"]},											 
 								{"type": "FACTION_LIMITER", "parameters" : ["castle"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["cathedral"]}]
 							]
@@ -24,7 +25,8 @@
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
 							"limiters": [	
-								["anyOf",														 
+								["anyOf",		
+								{"type": "FACTION_LIMITER", "parameters" : ["neutral"]},														 
 								{"type": "FACTION_LIMITER", "parameters" : ["castle"]},
 								{"type": "FACTION_LIMITER", "parameters" : ["cathedral"]}]
 							]
@@ -33,7 +35,7 @@
 			}
 		},
 	"basic" : {
-		"description": "{初级领导术}\n\n初级领导术可以使英雄的士气值+1。\n\n同时赋予城堡、教堂生物额外的生命值10%。",
+		"description": "{初级领导术}\n\n初级领导术可以使英雄的士气值+1。\n\n同时赋予城堡、教堂、中立生物额外的生命值10%。",
 		"effects" : {
 			"main" : { "val" : 1 },
 			"fourthEffect" : { "val" : 10 },
@@ -41,7 +43,7 @@
 		}
 	},
 	"advanced" : {
-		"description": "{中级领导术}\n\n中级领导术可以使英雄的士气值+2。\n\n同时赋予城堡、教堂生物额外的生命值20%。",
+		"description": "{中级领导术}\n\n中级领导术可以使英雄的士气值+2。\n\n同时赋予城堡、教堂、中立生物额外的生命值20%。",
 		"effects" : {
 			"main" : { "val" : 2 },
 			"fourthEffect" : { "val" : 20 },
@@ -49,7 +51,7 @@
 		}
 	},
 	"expert" : {
-		"description": "{高级领导术}\n\n高级领导术可以使英雄的士气值+3。\n\n同时赋予城堡、教堂生物额外的生命值20%，伤害10%。",
+		"description": "{高级领导术}\n\n高级领导术可以使英雄的士气值+3。\n\n同时赋予城堡、教堂、中立生物额外的生命值20%，伤害10%。",
 		"effects" : {
 			"main" : { "val" : 3 },
 			"fourthEffect" : { "val" : 20 },
