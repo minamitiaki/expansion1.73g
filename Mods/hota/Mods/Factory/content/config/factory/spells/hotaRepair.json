@@ -9,8 +9,8 @@
 		"school":
 		{
 			"air": false,
-			"earth": true,
-			"fire": false,
+			"earth": false,
+			"fire": true,
 			"water": false
 		},
 		"level": 3,
