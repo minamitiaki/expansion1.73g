@@ -41,7 +41,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 24,
+					"val": 20,
 					"limiters": [
 						{
 							"parameters": ["anubis", true],
@@ -65,7 +65,7 @@
         "texts": {
             "specialty": {
                 "name": "冥神使",
-                "description": "每7级提高冥神使及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
+                "description": "每7级提高冥神使及其升级形态20%的攻击力和防御力。速度+1。伤害+20。"
             }
         }
 	},

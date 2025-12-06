@@ -424,7 +424,7 @@
 				"damage": {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 24,
+					"val" : 16,
 					"limiters": [
 						{
 							"parameters": ["nix", true],
@@ -447,7 +447,7 @@
         "texts": {
             "specialty": {
                 "name": "鱼人",
-                "description": "每6级提高鱼人及其升级形态20%的攻击力和防御力。速度+1。伤害+24。"
+                "description": "每6级提高鱼人及其升级形态20%的攻击力和防御力。速度+1。伤害+16。"
             }
         }
 	},

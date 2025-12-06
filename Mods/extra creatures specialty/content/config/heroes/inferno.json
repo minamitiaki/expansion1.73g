@@ -432,7 +432,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 24,
+					"val": 20,
 				},					
 				"speed" : {
 					"type" : "STACKS_SPEED",
@@ -443,7 +443,7 @@
         "texts": {
             "specialty": {
                 "name": "恶魔",
-                "description": "使恶魔及其升级形态攻击力+10，防御力+10，速度+1。伤害+24。"
+                "description": "使恶魔及其升级形态攻击力+10，防御力+10，速度+1。伤害+20。"
             }
         }
 	},

@@ -449,7 +449,7 @@
 				"damage" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE",
-					"val" : 24
+					"val" : 20
 				},
 				"attack" : {
 					"subtype" : "primarySkill.attack",
@@ -466,7 +466,7 @@
         "texts": {
             "specialty": {
                 "name": "暗黑骑士",
-                "description": "使暗黑骑士及其升级形态攻击力+10，防御力+10，杀伤+24。"
+                "description": "使暗黑骑士及其升级形态攻击力+10，防御力+10，杀伤+20。"
             }
         }
 	}

@@ -40,7 +40,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 24,
+					"val": 20,
 					"limiters": [
 						{
 							"parameters": ["mdtTemplar", true],
@@ -63,7 +63,7 @@
         "texts": {
             "specialty": {
                 "name": "圣堂武士",
-                "description": "每7级提高圣堂武士及其升级形态20%的攻击力和防御力并拥有正士气。速度+1。伤害+24。"
+                "description": "每7级提高圣堂武士及其升级形态20%的攻击力和防御力并拥有正士气。速度+1。伤害+20。"
             }
         }
 	},
@@ -176,7 +176,7 @@
 				"damage": {
 					"subtype": "creatureDamageBoth",
 					"type": "CREATURE_DAMAGE",
-					"val": 24,
+					"val": 20,
 					"limiters": [
 						{
 							"parameters": ["mdtDrakeGolem", true],
@@ -199,7 +199,7 @@
         "texts": {
             "specialty": {
                 "name": "傀儡龙",
-                "description": "每7级提高傀儡龙及其升级形态20%的攻击力和防御力。速度+1。魔法抵抗力+10%。伤害+24。"
+                "description": "每7级提高傀儡龙及其升级形态20%的攻击力和防御力。速度+1。魔法抵抗力+10%。伤害+20。"
             }
         }
 	},
