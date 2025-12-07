@@ -24,7 +24,7 @@
 								["anyOf",	
 								{"type": "FACTION_LIMITER", "parameters" : ["fortress"]},														 
 								{"type": "FACTION_LIMITER", "parameters" : ["pavilion"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["deathvalley"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["dungeon"]}]
 							]			
 				},
 				"fifthEffect" :
@@ -37,7 +37,7 @@
 								["anyOf",			
 								{"type": "FACTION_LIMITER", "parameters" : ["fortress"]},											 
 								{"type": "FACTION_LIMITER", "parameters" : ["pavilion"]},
-								{"type": "FACTION_LIMITER", "parameters" : ["deathvalley"]}]
+								{"type": "FACTION_LIMITER", "parameters" : ["dungeon"]}]
 							]			
 				}
 			}
@@ -48,7 +48,7 @@
 				"medium" : "skills/hexes/hexesMediumBasic",
 				"large" : "skills/hexes/hexesLargeBasic"
 			},
-			"description" : "{初级巫蛊术}\n\n使敌方的运气降低1点。\n\n同时赋予要塞、沙堡、死亡谷额外的生命值10%。",
+			"description" : "{初级巫蛊术}\n\n使敌方的运气降低1点。\n\n同时赋予要塞、沙堡、地下城额外的生命值10%。",
 			"effects" : {
 				"main" : { "val" : -1 },
 				"fourthEffect" : { "val" : 10 },
@@ -61,7 +61,7 @@
 				"medium" : "skills/hexes/HexesMediumAdvanced",
 				"large" : "skills/hexes/HexesLargeAdvanced"
 			},
-			"description" : "{中级巫蛊术}\n\n使敌方的运气降低2点。\n\n同时赋予要塞、沙堡、死亡谷额外的生命值20%。",
+			"description" : "{中级巫蛊术}\n\n使敌方的运气降低2点。\n\n同时赋予要塞、沙堡、地下城额外的生命值20%。",
 			"effects" : {
 				"main" : { "val" : -2 },
 				"fourthEffect" : { "val" : 20 },
@@ -74,7 +74,7 @@
 				"medium" : "skills/hexes/HexesMediumExpert",
 				"large" : "skills/hexes/HexesLargeExpert"
 			},
-			"description" : "{高级巫蛊术}\n\n使敌方的运气降低3点。\n\n同时赋予要塞、沙堡、死亡谷额外的生命值20%，伤害10%。",
+			"description" : "{高级巫蛊术}\n\n使敌方的运气降低3点。\n\n同时赋予要塞、沙堡、地下城额外的生命值20%，伤害10%。",
 			"effects" : {
 				"main" : { "val" : -3 },
 				"fourthEffect" : { "val" : 20 },
