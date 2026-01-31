@@ -255,11 +255,11 @@
 		},
 		"school":
 		{
-			"air": true,
-			"earth": true,
-			"fire": true,
-			"water": true
-		},		
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
 		"flags" : {
 			"indifferent": true
 		}
@@ -278,11 +278,12 @@
 		},
 		"school":
 		{
-			"air": true,
-			"earth": true,
-			"fire": true,
-			"water": true
-		},			
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,			
 		"flags" : {
 			"indifferent": true
 		}

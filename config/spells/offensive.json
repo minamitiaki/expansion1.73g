@@ -208,7 +208,7 @@
 					"directDamage" : {"type":"core:damage"}
 				},
 				"targetModifier":{"smart":false}
-			}
+			},
 		},
 		"flags" : {
 			"damage": true,
@@ -237,7 +237,19 @@
 					"directDamage" : {"type":"core:damage"}
 				},
 				"targetModifier":{"smart":false}
-			}
+			},
+			"none":{
+				"cost": 12,
+			},
+			"basic":{
+				"cost": 10,
+			},
+			"advanced":{
+				"cost": 10,
+			},
+			"expert":{
+				"cost": 10,
+			},	
 		},
 		"flags" : {
 			"damage": true,

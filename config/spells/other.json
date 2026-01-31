@@ -594,19 +594,28 @@
 					}
 				},
 				"targetModifier":{"smart":true}
-			}
+			},
+			"none":{
+				"cost": 12,
+			},
+			"basic":{
+				"cost": 10,
+			},
+			"advanced":{
+				"cost": 10,
+			},
+			"expert":{
+				"cost": 10,
+			},
 		},
+		"level": 3,		
 		"flags" : {
 			"rising": true,
 			"positive": true
 		},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.NON_LIVING" : "absolute",
-				"bonus.MECHANICAL" : "absolute",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute",
-				"bonus.GARGOYLE" : "absolute"
+
 			}
 		}
 	},

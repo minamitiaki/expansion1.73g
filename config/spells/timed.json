@@ -796,6 +796,7 @@
 				}
 			}
 		},
+		"level": 2,			
 		"counters" : {
 			"spell.sorrow":true
 		},
@@ -850,6 +851,7 @@
 				}
 			}
 		},
+		"level": 2,			
 		"counters" : {
 			"spell.mirth":true
 		},
@@ -904,6 +906,7 @@
 				}
 			}
 		},
+		"level": 2,			
 		"counters" : {
 			"spell.misfortune": true
 		},
@@ -949,6 +952,7 @@
 				}
 			}
 		},
+		"level": 2,			
 		"counters" : {
 			"spell.fortune":true
 		},
@@ -1081,6 +1085,7 @@
 				}
 			},
 			"none":{
+				"cost": 8,
 				"effects" : {
 					"slayer" : {
 						"val" : 0
@@ -1088,6 +1093,7 @@
 				}
 			},
 			"basic":{
+				"cost": 6,	
 				"effects" : {
 					"slayer" : {
 						"val" : 1
@@ -1095,6 +1101,7 @@
 				}
 			},
 			"advanced":{
+				"cost": 6,		
 				"effects" : {
 					"slayer" : {
 						"val" : 2
@@ -1102,6 +1109,7 @@
 				}
 			},
 			"expert":{
+				"cost": 6,	
 				"effects" : {
 					"slayer" : {
 						"val" : 3
@@ -1109,6 +1117,7 @@
 				}
 			}
 		},
+		"level": 2,			
 		"flags" : {
 			"positive": true
 		}
@@ -1124,7 +1133,11 @@
 			"cast": "FRENZY"
 		},
 		"levels" : {
+			"none":{
+				"cost": 8,
+			},	
 			"base":{
+				"cost": 6,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"effects" : {
@@ -1136,6 +1149,7 @@
 				}
 			},
 			"advanced":{
+				"cost": 6,
 				"effects" : {
 					"inFrenzy" : {
 						"val" : 150
@@ -1143,6 +1157,7 @@
 				}
 			},
 			"expert":{
+				"cost": 6,
 				"effects" : {
 					"inFrenzy" : {
 						"val" : 200
@@ -1150,8 +1165,9 @@
 				}
 			}
 		},
+		"level": 2,				
 		"flags" : {
-			"positive": true
+			"indifferent": true
 		},
 		"targetCondition" : {
 			"noneOf" : {
