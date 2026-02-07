@@ -6,7 +6,9 @@
 		"value" : 12000,
 		"bonuses" : [
 			{
-				"type" : "MAGIC_RESISTANCE",
+				//"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",		
 				"valueType" : "BASE_NUMBER",
 				"val" : 20
 			}

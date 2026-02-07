@@ -11,7 +11,7 @@
       "biography" : "维斯特兰从小就对建造傀儡着迷。他的好奇心和具有挑战性的问题甚至困扰着最优秀的建筑师。加文·马格努斯亲自注意到维斯特兰的潜力，并命令他根据红矮人的图纸及时建造了新的魔像军团。",
       "specialty" :
       {
-        "description" : "使傀儡龙和机械龙魔法抵抗力+10%。",
+        "description" : "使傀儡龙和机械龙魔法抵抗力+20%。",
         "tooltip" : "Bonus: Drake Golems",
         "name" : "傀儡龙"
       }
@@ -59,8 +59,10 @@
     "specialty": {
         "bonuses": {
 			"resistance": {
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 10,
+				//"type" : "MAGIC_RESISTANCE",
+        "type" : "SPELL_DAMAGE_REDUCTION",
+        "subtype" : "spellSchool.any",	 
+				"val" : 20,
 				"valueType" : "ADDITIVE_VALUE",
 				"limiters": [
 				{

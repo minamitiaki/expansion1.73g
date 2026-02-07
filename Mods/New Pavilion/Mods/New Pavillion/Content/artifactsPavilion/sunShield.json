@@ -8,7 +8,7 @@
 		"text":
 		{
 			"name": "曜日之盾",
-			"description": "{曜日之盾}\r\n\r\n这件左手盾牌可以使你的防御+5，并且能增加10%的魔法抗性。",
+			"description": "{曜日之盾}\r\n\r\n这件左手盾牌可以使你的防御+5，并且能增加10%的魔法伤害抗性。",
 			"event": "在旅途中你的一个士兵注意到，在山顶附近有什么东西闪耀着光芒。你们走近那道光，发现附近有沙蛇在沉睡。你悄悄地取走了闪光的物件，仔细检查后，确定这是失落的曜日之盾。"
 					
 		},
@@ -26,7 +26,9 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"type": "MAGIC_RESISTANCE",
+				//"type": "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",		
 				"val": 10,
 				"valueType" : "BASE_NUMBER"
 			}

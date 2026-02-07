@@ -7,7 +7,9 @@
 			},
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				//"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",		
 				"val" : 40
 			},
 			"basicSlayer" : { "type" : "KING", "val": 3 }

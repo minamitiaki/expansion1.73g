@@ -35,7 +35,9 @@
 				]
 			},
 			"battleDodoResist" : {
-				"type" : "MAGIC_RESISTANCE",
+				//"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",	
 				"val" : 33,
 				"limiters" : [
 					{

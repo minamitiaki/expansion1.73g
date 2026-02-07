@@ -134,8 +134,12 @@
 			},
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 20
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 20
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",	
+				"val" : 40
 			},
 			"KING_1" : // Will be affected by Slayer with no expertise
 			{

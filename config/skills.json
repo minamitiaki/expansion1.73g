@@ -811,25 +811,31 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"type" : "MAGIC_RESISTANCE",
-					"valueType" : "BASE_NUMBER"
+					//"type" : "MAGIC_RESISTANCE",
+					//"valueType" : "BASE_NUMBER"
+
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.any",	
 				}
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 5 }
-			}
+				"main" : { "val" : 20 }
+			},
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少20%。"	
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 10 }
-			}
+				"main" : { "val" : 40 }
+			},
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少40%。"		
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 20 }
-			}
+				"main" : { "val" : 60 }
+			},
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少60%。"		
 		}
 	},
 	"firstAid" : {

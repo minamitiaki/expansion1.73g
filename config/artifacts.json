@@ -870,9 +870,13 @@
 	{
 		"bonuses" : [
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 5,
-				"valueType" : "BASE_NUMBER"
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 5,
+				//"valueType" : "BASE_NUMBER"
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",	
+				"val" : 10
 			}
 		],
 		"index" : 57,
@@ -882,9 +886,13 @@
 	{
 		"bonuses" : [
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 10,
-				"valueType" : "BASE_NUMBER"
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 10,
+				//"valueType" : "BASE_NUMBER"
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",	
+				"val" : 20
 			}
 		],
 		"index" : 58,
@@ -894,9 +902,13 @@
 	{
 		"bonuses" : [
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 15,
-				"valueType" : "BASE_NUMBER"
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 15,
+				//"valueType" : "BASE_NUMBER"
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",	
+				"val" : 30
 			}
 		],
 		"index" : 59,

@@ -51,9 +51,14 @@
 		{
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 20
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
 				"val" : 20
 			}
+			
 		},
 		"upgrades": ["battleDwarf"],
 		"graphics" :
@@ -78,7 +83,11 @@
 		{
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				//"type" : "MAGIC_RESISTANCE",
+				//"val" : 40
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
 				"val" : 40
 			}
 		},
