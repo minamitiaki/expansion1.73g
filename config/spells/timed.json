@@ -343,8 +343,41 @@
 						"duration" : "N_TURNS"
 					}
 				}
+			},
+			"none":{
+				"cost": 8,
+				"effects" : {
+					"magicMirror" : {
+						"val" : 20
+					}
+				}
+			},
+			"basic":{
+				"cost": 8,	
+				"effects" : {
+					"magicMirror" : {
+						"val" : 40
+					}
+				}
+			},
+			"advanced":{
+				"cost": 8,		
+				"effects" : {
+					"magicMirror" : {
+						"val" : 70
+					}
+				}
+			},
+			"expert":{
+				"cost": 8,	
+				"effects" : {
+					"magicMirror" : {
+						"val" : 100
+					}
+				}
 			}
 		},
+		"level": 3,		
 		"flags" : {
 			"positive": true
 		}
@@ -775,7 +808,7 @@
 				"effects" : {
 					"morale" : {
 						"type" : "MORALE",
-						"val" : 1,
+						"val" : 2,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -783,7 +816,7 @@
 			"advanced":{
 				"effects" : {
 					"morale" : {
-						"val" : 2
+						"val" : 3
 					}
 				}
 			},
@@ -791,7 +824,7 @@
 				"range" : "X",
 				"effects" : {
 					"morale" : {
-						"val" : 2
+						"val" : 3
 					}
 				}
 			}
@@ -830,7 +863,7 @@
 				"effects" : {
 					"morale" : {
 						"type" : "MORALE",
-						"val" : -1,
+						"val" : -2,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -838,7 +871,7 @@
 			"advanced":{
 				"effects" : {
 					"morale" : {
-						"val" : -2
+						"val" : -3
 					}
 				}
 			},
@@ -846,7 +879,7 @@
 				"range" : "X",
 				"effects" : {
 					"morale" : {
-						"val" : -2
+						"val" : -3
 					}
 				}
 			}
@@ -885,7 +918,7 @@
 				"effects" : {
 					"luck" : {
 						"type" : "LUCK",
-						"val" : 1,
+						"val" : 2,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -893,7 +926,7 @@
 			"advanced":{
 				"effects" : {
 					"luck" : {
-						"val" : 2
+						"val" : 3
 					}
 				}
 			},
@@ -901,7 +934,7 @@
 				"range" : "X",
 				"effects" : {
 					"luck" : {
-						"val" : 2
+						"val" : 3
 					}
 				}
 			}
@@ -931,7 +964,7 @@
 				"effects" : {
 					"luck" : {
 						"type" : "LUCK",
-						"val" : -1,
+						"val" : -2,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -939,7 +972,7 @@
 			"advanced":{
 				"effects" : {
 					"luck" : {
-						"val" : -2
+						"val" : -3
 					}
 				}
 			},
@@ -947,7 +980,7 @@
 				"range" : "X",
 				"effects" : {
 					"luck" : {
-						"val" : -2
+						"val" : -3
 					}
 				}
 			}
