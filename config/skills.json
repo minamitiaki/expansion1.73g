@@ -821,21 +821,21 @@
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 20 }
+				"main" : { "val" : 10 }
 			},
-			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少20%。"	
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少10%。"	
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 40 }
+				"main" : { "val" : 30 }
 			},
-			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少40%。"		
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少30%。"		
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 60 }
+				"main" : { "val" : 50 }
 			},
-			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少60%。"		
+			"description": "{初级抵抗力}\n\n部队受到魔法损伤减少50%。"		
 		}
 	},
 	"firstAid" : {
