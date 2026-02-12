@@ -1178,6 +1178,7 @@
 						"type" : "IN_FRENZY",
 						"val" : 100,
 						//"duration" : "UNTIL_ATTACK"
+						"duration" : "N_TURNS"
 					}
 				}
 			},
