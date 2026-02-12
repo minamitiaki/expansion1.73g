@@ -505,7 +505,7 @@
 				"targetModifier":{"smart":true},
 				"effects" : {
 					"primarySkill" : {
-						"val" : 3,
+						"val" : 6,
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.attack",
 						"effectRange" : "ONLY_MELEE_FIGHT",
@@ -516,7 +516,7 @@
 			"advanced":{
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			},
@@ -524,7 +524,7 @@
 				"range" : "X",
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			}
@@ -559,7 +559,7 @@
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.attack",
-						"val" : 3,
+						"val" : 6,
 						"effectRange" : "ONLY_DISTANCE_FIGHT",
 						"duration" : "N_TURNS"
 					}
@@ -568,7 +568,7 @@
 			"advanced":{
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			},
@@ -576,7 +576,7 @@
 				"range" : "X",
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			}
@@ -608,7 +608,7 @@
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.attack",
-						"val" : -3,
+						"val" : -6,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -617,7 +617,7 @@
 			"advanced":{
 				"effects" : {
 					"primarySkill" : {
-						"val" : -6
+						"val" : -12
 					}
 				}
 			},
@@ -625,7 +625,7 @@
 				"range" : "X",
 				"effects" : {
 					"primarySkill" : {
-						"val" : -6
+						"val" : -12
 					}
 				}
 			}
@@ -655,7 +655,7 @@
 					"primarySkill" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.defence",
-						"val" : 3,
+						"val" : 6,
 						"duration" : "N_TURNS"
 					}
 				}
@@ -663,7 +663,7 @@
 			"advanced":{
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			},
@@ -671,7 +671,7 @@
 				"range" : "X",
 				"effects" : {
 					"primarySkill" : {
-						"val" : 6
+						"val" : 12
 					}
 				}
 			}
@@ -708,14 +708,14 @@
 			"advanced":{
 				"cumulativeEffects" : {
 					"primarySkill" : {
-						"val" : -4
+						"val" : -6
 					}
 				}
 			},
 			"expert":{
 				"cumulativeEffects" : {
 					"primarySkill" : {
-						"val" : -5
+						"val" : -9
 					}
 				}
 			}
@@ -742,13 +742,13 @@
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.attack",
-						"val" : 2,
+						"val" : 3,
 						"duration" : "N_TURNS"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.defence",
-						"val" : 2,
+						"val" : 3,
 						"duration" : "N_TURNS"
 					},
 					"stacksSpeed" : {
@@ -762,10 +762,10 @@
 			"advanced":{
 				"effects" : {
 					"attack" : {
-						"val" : 4
+						"val" : 6
 					},
 					"defence" : {
-						"val" : 4
+						"val" : 6
 					},
 					"stacksSpeed" : {
 						"val" : 4
@@ -776,10 +776,10 @@
 				"range" : "X",
 				"effects" : {
 					"attack" : {
-						"val" : 4
+						"val" : 6
 					},
 					"defence" : {
-						"val" : 4
+						"val" : 6
 					},
 					"stacksSpeed" : {
 						"val" : 4
@@ -1177,7 +1177,7 @@
 					"inFrenzy" : {
 						"type" : "IN_FRENZY",
 						"val" : 100,
-						"duration" : "UNTIL_ATTACK"
+						//"duration" : "UNTIL_ATTACK"
 					}
 				}
 			},
