@@ -144,7 +144,7 @@
 						"gold" : 2000,
 						"sulfur" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "special2" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
 					"id" : 54
 				},
 			"dwellingUpLvl4B" :
